@@ -30,3 +30,23 @@
 
  reflow();addEventListener('resize',reflow);document.addEventListener('cms:content-loaded',reflow);
 })();
+
+// Match the site's compact navigation on phones and tablets.
+(()=>{
+ const header=document.querySelector('header[data-node-id="455:47645"]');
+ const nav=header.querySelector('nav');
+ nav.id='contact-navigation';
+ const toggle=document.createElement('button');
+ toggle.className='contact-menu-toggle';toggle.type='button';
+ toggle.setAttribute('aria-controls',nav.id);toggle.setAttribute('aria-expanded','false');
+ toggle.setAttribute('aria-label','Open navigation');
+ toggle.innerHTML='<span></span><span></span>';
+ header.append(toggle);
+ const project=document.createElement('a');project.href='#project-form';project.textContent='Start Your Project';project.className='contact-menu-project';nav.append(project);
+ const setOpen=open=>{header.classList.toggle('contact-menu-open',open);toggle.setAttribute('aria-expanded',String(open));toggle.setAttribute('aria-label',open?'Close navigation':'Open navigation');};
+ toggle.addEventListener('click',()=>setOpen(toggle.getAttribute('aria-expanded')!=='true'));
+ nav.addEventListener('click',event=>{if(event.target.closest('a'))setOpen(false)});
+ document.addEventListener('keydown',event=>{if(event.key==='Escape'&&toggle.getAttribute('aria-expanded')==='true'){setOpen(false);toggle.focus()}});
+ document.addEventListener('click',event=>{if(!header.contains(event.target))setOpen(false)});
+ matchMedia('(min-width:1024px)').addEventListener('change',()=>setOpen(false));
+})();

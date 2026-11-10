@@ -37,3 +37,23 @@ body.contact-flow .faq-item,body.contact-flow .field,body.contact-flow .upload{b
   body.contact-flow [data-node-id="455:47660"]{order:0;flex:1 1 auto;width:auto!important;justify-content:center;flex-wrap:nowrap;gap:20px}
   body.contact-flow [data-node-id="455:47673"]{flex-shrink:0;margin-left:0}
 }
+
+.contact-menu-toggle,.contact-menu-project{display:none}
+@media(max-width:1023px){
+ body.contact-flow [data-node-id="455:47645"]{flex-wrap:nowrap;gap:12px;padding:18px 20px;min-height:80px;z-index:10}
+ body.contact-flow [data-node-id="455:47646"]{padding:0;min-height:44px;width:112px!important}
+ body.contact-flow [data-node-id="455:47646"]>.contact-logo{width:112px}
+ body.contact-flow [data-node-id="455:47673"]{margin-left:auto;padding:12px 14px}
+ body.contact-flow [data-node-id="455:47673"] .semantic-text{font-size:12px;white-space:nowrap}
+ .contact-menu-toggle{display:flex;flex-direction:column;align-items:center;justify-content:center;gap:6px;flex:0 0 44px;width:44px;height:44px;border:1px solid #cfd1d3;border-radius:50%;background:#fff;cursor:pointer}
+ .contact-menu-toggle span{display:block;width:18px;height:2px;background:var(--contact-ink)}
+ body.contact-flow [data-node-id="455:47660"]{display:none;position:absolute!important;inset:calc(100% - 6px) 20px auto!important;width:auto!important;padding:12px;gap:0;background:#fff;border:1px solid #cfd1d3;border-radius:var(--contact-radius);box-shadow:0 12px 32px #05191b20;z-index:20}
+ body.contact-flow .contact-menu-open [data-node-id="455:47660"]{display:flex;flex-direction:column;align-items:stretch}
+ body.contact-flow [data-node-id="455:47660"]>a{padding:10px 12px;min-height:44px;width:100%!important}
+}
+@media(max-width:360px){
+ body.contact-flow [data-node-id="455:47673"]{display:none}
+ .contact-menu-toggle{margin-left:auto}
+ body.contact-flow [data-node-id="455:47660"]>.contact-menu-project{display:flex;justify-content:center;margin-top:8px;background:var(--contact-ink);color:#fff;border-radius:999px}
+}
+@media(min-width:361px){body.contact-flow [data-node-id="455:47660"]>.contact-menu-project{display:none}}
