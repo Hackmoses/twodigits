@@ -12,8 +12,8 @@
       "featured": true,
       "sourceUrl": "https://www.figma.com/design/IvuKG6Bsp3xg3LGsQDH2EI/Two-Digitals?node-id=455-43647",
       "cover": {
-        "src": "assets/case-studies/a2526eee0463c14d3e5afbac5286109b5a7f661f.png",
-        "alt": "Blomgram product design overview",
+        "src": "assets/case-layout/a2526eee0463c14d3e5afbac5286109b5a7f661f.png",
+        "alt": "ChatGPT Image Aug 3, 2026, 01_54_18 PM 2",
         "width": 1172,
         "height": 804
       },
@@ -27,114 +27,286 @@
       },
       "sections": [
         {
-          "id": "455-43685",
+          "id": "chapter-455-43685",
           "heading": "The Problem",
-          "body": "Cross-border money transfers can be stressful and difficult to navigate for Africans living, working, and doing business globally.\n\nBlomgram needed to simplify and scale its cross-border payment experience while building trust and differentiating itself in a competitive fintech market.\n\nUsers struggled with unclear fees, exchange rates, transaction status, and the complexity of sending and managing money across different currencies.\n\nExisting cross-border payment experiences were often fragmented, complex, and lacked the transparency users needed to feel confident about their transactions.",
-          "images": []
+          "body": "Cross-border money transfers can be stressful and difficult to navigate for Africans living, working, and doing business globally.\n\nBusiness Problem\n\nBlomgram needed to simplify and scale its cross-border payment experience while building trust and differentiating itself in a competitive fintech market.\n\nUser Problem\n\nUsers struggled with unclear fees, exchange rates, transaction status, and the complexity of sending and managing money across different currencies.\n\nExisting Challenges\n\nExisting cross-border payment experiences were often fragmented, complex, and lacked the transparency users needed to feel confident about their transactions.",
+          "cards": [],
+          "images": [],
+          "palette": [],
+          "typography": [],
+          "buttons": []
         },
         {
-          "id": "455-43702",
-          "heading": "Users & Research",
-          "body": "Goal: Send money home quickly and affordably while knowing exactly what the recipient will receive.\nPain Points:\nUnclear transfer fees\nConfusing exchange rates\nLong or complicated transfer processes\nLimited visibility after sending money\nNeeds: Speed, transparency, affordability, and reliable transaction tracking.\n\nGoal: Receive international payments and manage money across multiple currencies.\nPain Points:\nManaging different currencies across multiple platforms\nDifficulty converting currencies efficiently\nLimited visibility into balances and transactions\nNeeds: A centralized multi-currency wallet, easy currency exchange, and clear financial insights.\n\nGoal: Receive and send international payments while keeping track of business transactions.\nPain Points:\nHigh transaction costs\nComplicated international payment processes\nDifficulty tracking incoming and outgoing payments\nLack of a unified financial platform\nNeeds: Affordable transfers, transparent costs, transaction history, and efficient payment management.",
-          "images": []
+          "id": "chapter-455-43702",
+          "heading": "Target Users & Persona",
+          "body": "",
+          "cards": [
+            {
+              "title": "Amara Okafor",
+              "body": "Product Manager\n\nAge: 31\n\nLocation: London, UK\n\nGoal: Send money home quickly and affordably while knowing exactly what the recipient will receive.\n**Pain Points**\n- Unclear transfer fees\n- Confusing exchange rates\n- Long or complicated transfer processes\n- Limited visibility after sending money\n**Needs**\n\nSpeed, transparency, affordability, and reliable transaction tracking.",
+              "image": {
+                "src": "assets/case-layout/450b55543d091f924bc8675e4a0fdec69575bc95.jpg",
+                "alt": "Ellipse"
+              }
+            },
+            {
+              "title": "Daniel Mensah",
+              "body": "Remote Software Consultant\n\nAge: 31\n\nLocation: Accra, Ghana\n\nGoal: Receive international payments and manage money across multiple currencies.\n**Pain Points**\n- Managing different currencies across multiple platforms\n- Difficulty converting currencies efficiently\n- Limited visibility into balances and transactions\n**Needs**\n\nA centralized multi-currency wallet, easy currency exchange, and clear financial insights.",
+              "image": {
+                "src": "assets/case-layout/450b55543d091f924bc8675e4a0fdec69575bc95.jpg",
+                "alt": "Ellipse"
+              }
+            },
+            {
+              "title": "Chiamaka Eze",
+              "body": "E-commerce Business Owner\n\nAge: 31\n\nLocation:  Lagos, Nigeria\n\nGoal: Receive and send international payments while keeping track of business transactions.\n**Pain Points**\n- High transaction costs\n- Complicated international payment processes\n- Difficulty tracking incoming and outgoing payments\n- Lack of a unified financial platform\n**Needs**\n\nAffordable transfers, transparent costs, transaction history, and efficient payment management.",
+              "image": {
+                "src": "assets/case-layout/450b55543d091f924bc8675e4a0fdec69575bc95.jpg",
+                "alt": "Ellipse"
+              }
+            }
+          ],
+          "images": [],
+          "palette": [],
+          "typography": [],
+          "buttons": []
         },
         {
-          "id": "455-43739",
+          "id": "chapter-455-43739",
           "heading": "Product Goals",
-          "body": "The design focused on four primary goals:\n\nMake sending money understandable from the first interaction to confirmation.\n\nClearly communicate exchange rates, fees, recipient amounts, and transaction status.\n\n03 Create a unified financial experience\n\nBring transfers, balances, currencies, and transaction history into one coherent product.",
-          "images": []
+          "body": "",
+          "cards": [
+            {
+              "title": "01 Simplify transfers",
+              "body": "Make sending money understandable from the first interaction to confirmation.",
+              "image": null
+            },
+            {
+              "title": "02 Build trust",
+              "body": "Clearly communicate exchange rates, fees, recipient amounts, and transaction status.",
+              "image": null
+            },
+            {
+              "title": "03 Create a unified financial experience",
+              "body": "Bring transfers, balances, currencies, and transaction history into one coherent product.",
+              "image": null
+            },
+            {
+              "title": "04 Design for global Africans",
+              "body": "Clearly communicate exchange rates, fees, recipient amounts, and transaction status.",
+              "image": null
+            }
+          ],
+          "images": [],
+          "palette": [],
+          "typography": [],
+          "buttons": []
         },
         {
-          "id": "455-43772",
-          "heading": "Userflow Money",
-          "body": "Always show users what will happen before they commit transparency at every step of the money transfer flow.",
-          "images": []
+          "id": "chapter-455-43772",
+          "heading": "Core Transfer Experience",
+          "body": "Always show users what will happen before they commit transparency at every step of the money transfer flow.\n\n01\n\nChoose Destination\n\nSelect country/currency\n\n02\n\nEnter Amount\n\nSpecify how much to send\n\n03\n\nReview Conversion\n\nExchange rate & amount\n\n04\n\nShow Fees\n\nCommunicate applicable fees\n\n05\n\nReview Recipient\n\nConfirm recipient info\n\n06\n\nReview Transfer\n\nFull transaction summary\n\n07\n\nConfirm\n\nAuthorize the transfer\n\n08\n\nTrack\n\nStatus and progress",
+          "cards": [],
+          "images": [],
+          "palette": [],
+          "typography": [],
+          "buttons": []
         },
         {
-          "id": "455-43913",
+          "id": "chapter-455-43835",
+          "heading": "Strict Modular Foundations",
+          "body": "Clean, utility-focused typographic scales, geometric color spaces, and composable UI blocks.",
+          "cards": [],
+          "images": [],
+          "palette": [
+            {
+              "group": "Brand palette",
+              "name": "Primary",
+              "color": "#16263C"
+            },
+            {
+              "group": "Brand palette",
+              "name": "Secondary",
+              "color": "#101D46"
+            },
+            {
+              "group": "Brand palette",
+              "name": "Tertiary",
+              "color": "#3451B2"
+            },
+            {
+              "group": "Brand palette",
+              "name": "Neutral",
+              "color": "#EDF0F8"
+            },
+            {
+              "group": "Brand palette",
+              "name": "Parchment",
+              "color": "#FAFAFA"
+            },
+            {
+              "group": "Color Space",
+              "name": "Ink Primary",
+              "color": "#C62A2F"
+            },
+            {
+              "group": "Color Space",
+              "name": "Slate Secondary",
+              "color": "#299764"
+            },
+            {
+              "group": "Color Space",
+              "name": "Studio Gold",
+              "color": "#915930"
+            },
+            {
+              "group": "Color Space",
+              "name": "Dividers",
+              "color": "#256E93"
+            },
+            {
+              "group": "Color Space",
+              "name": "Parchment",
+              "color": "#FAFAFA"
+            }
+          ],
+          "typography": [
+            {
+              "label": "Inter — 36px",
+              "size": 36
+            },
+            {
+              "label": "Inter body copy standard — 16px",
+              "size": 16
+            },
+            {
+              "label": "Inter Technical Telemetry — 12px",
+              "size": 12
+            }
+          ],
+          "buttons": [
+            "Primary CTA",
+            "Secondary"
+          ]
+        },
+        {
+          "id": "chapter-455-43913",
           "heading": "Wireframes",
           "body": "",
+          "cards": [],
           "images": [
             {
-              "src": "assets/case-studies/03ad05766915bc9b161933024e758af081dac228.png",
-              "alt": "Blomgram — Wireframes",
-              "width": 1363,
-              "height": 908.6666870117188
+              "src": "assets/case-layout/03ad05766915bc9b161933024e758af081dac228.png",
+              "alt": "image 10"
             }
-          ]
+          ],
+          "palette": [],
+          "typography": [],
+          "buttons": []
         },
         {
-          "id": "455-43915",
-          "heading": "Signup & Authentication Experience",
+          "id": "chapter-455-43915",
+          "heading": "Signup and Sign in Experience",
           "body": "I designed Blomgram’s signup flow to make account creation simple, fast, and familiar. Users can sign up with Apple, Google, or their phone number, reducing the need for lengthy forms.\n\nThe goal was to minimize friction, build trust from the first interaction, and get users into the platform quickly while keeping the experience clean and intuitive.",
+          "cards": [],
           "images": [
             {
-              "src": "assets/case-studies/1984f6b324a69a9295796d635c7fbf49b6ff5a43.png",
-              "alt": "Blomgram — Signup & Authentication Experience",
-              "width": 1268,
-              "height": 900.7230834960938
+              "src": "assets/case-layout/1984f6b324a69a9295796d635c7fbf49b6ff5a43.png",
+              "alt": "image 4"
             }
-          ]
+          ],
+          "palette": [],
+          "typography": [],
+          "buttons": []
         },
         {
-          "id": "455-43924",
+          "id": "chapter-455-43924",
           "heading": "User Onboarding & Verification",
-          "body": "I structured the experience into clear, progressive steps—from country selection and email registration to OTP verification. The country selector was designed to scale as more markets are introduced, while reusable form components and consistent interaction patterns create a foundation for future onboarding requirements.\nUX Focus\n Reduced cognitive load through a simple step-by-step flow.\n Clear hierarchy and familiar form interactions.\n Country selection designed for a growing international user base.\n OTP verification provides a focused, easy-to-complete authentication step.\n Clear feedback states distinguish between inactive and completed actions.\nBusiness Impact  The design creates an onboarding foundation that can scale with geographic expansion and growing user base, while maintaining a consistent experience. The emphasis is on reducing onboarding friction, supporting user completion, and creating reusable patterns that make future product expansion more efficient.",
+          "body": "I structured the experience into clear, progressive steps—from country selection and email registration to OTP verification. The country selector was designed to scale as more markets are introduced, while reusable form components and consistent interaction patterns create a foundation for future onboarding requirements.\n\nUX Focus\n- Reduced cognitive load through a simple step-by-step flow.\n- Clear hierarchy and familiar form interactions.\n- Country selection designed for a growing international user base.\n- OTP verification provides a focused, easy-to-complete authentication step.\n- Clear feedback states distinguish between inactive and completed actions.\n**Business Impact**\n\nThe design creates an onboarding foundation that can scale with geographic expansion and growing user base, while maintaining a consistent experience. The emphasis is on reducing onboarding friction, supporting user completion, and creating reusable patterns that make future product expansion more efficient.",
+          "cards": [],
           "images": [
             {
-              "src": "assets/case-studies/788eb0da26b88ddc78d50e5ae3bb43259668644e.png",
-              "alt": "Blomgram — User Onboarding & Verification",
-              "width": 1240,
-              "height": 826.6666870117188
+              "src": "assets/case-layout/788eb0da26b88ddc78d50e5ae3bb43259668644e.png",
+              "alt": "image 8"
             }
-          ]
+          ],
+          "palette": [],
+          "typography": [],
+          "buttons": []
         },
         {
-          "id": "455-43932",
-          "heading": "Dashboard",
-          "body": "The Design Approach\nRESEARCH → DEFINE → DESIGN → TEST\nI started with user research and competitor analysis to understand real user needs and pain points. Through interviews and usability insights, I identified the key goals: simple navigation, clear financial visibility, and trust in every transaction.\nI then translated these insights into a clean, minimal interface with a clear hierarchy, intuitive flows and consistent visual language. The design focused on reducing friction, ensuring security cues are visible, and making core actions easy to find and complete.\n\nBusiness Impact\nIncreased User Activation\nThe simplified onboarding flow led to higher sign-up completion rates and faster time to first transaction.\nMore Transaction Volume\nA cleaner, faster experience encouraged more frequent and higher-value transactions across borders.\nReduced Support Tickets\nClearer guidance and intuitive flows resulted in fewer user errors and less need for customer support.\nStronger Brand Trust\nVisible security measures and transparent fees built confidence and long-term loyalty.\n\nUser Experience\nSimple and Intuitive\nA clean interface with clear labels and logical flow makes it easy for anyone to send, receive or manage funds.\nFaster Access\nKey actions are just a tap away, with quick shortcuts for common tasks like deposits, transfers and balance checks.\nGreater Control\nReal-time balance updates, transaction history and easy wallet management give users full control of their money.\nConfident and Secure\nVisible security cues, biometric support and trusted payment methods create peace of mind with every transaction.",
+          "id": "chapter-455-43932",
+          "heading": "DASHBOARD",
+          "body": "**The Design Approach**\n\nRESEARCH → DEFINE → DESIGN → TEST\n\nI started with user research and competitor analysis to understand real user needs and pain points. Through interviews and usability insights, I identified the key goals: simple navigation, clear financial visibility, and trust in every transaction.\n\nI then translated these insights into a clean, minimal interface with a clear hierarchy, intuitive flows and consistent visual language. The design focused on reducing friction, ensuring security cues are visible, and making core actions easy to find and complete.\n\n**Business Impact**\n\nIncreased User Activation\n\nThe simplified onboarding flow led to higher sign-up completion rates and faster time to first transaction.\n\nMore Transaction Volume\n\nA cleaner, faster experience encouraged more frequent and higher-value transactions across borders.\n\nReduced Support Tickets\n\nClearer guidance and intuitive flows resulted in fewer user errors and less need for customer support.\n\nStronger Brand Trust\n\nVisible security measures and transparent fees built confidence and long-term loyalty.\n\n**User Experience**\n\nSimple and Intuitive\n\nA clean interface with clear labels and logical flow makes it easy for anyone to send, receive or manage funds.\n\nFaster Access\n\nKey actions are just a tap away, with quick shortcuts for common tasks like deposits, transfers and balance checks.\n\nGreater Control\n\nReal-time balance updates, transaction history and easy wallet management give users full control of their money.\n\nConfident and Secure\n\nVisible security cues, biometric support and trusted payment methods create peace of mind with every transaction.",
+          "cards": [],
           "images": [
             {
-              "src": "assets/case-studies/9fe7c43879d67baf0ce1aabe05fd8d1eabff2cd6.png",
-              "alt": "Blomgram — Dashboard",
-              "width": 1397,
-              "height": 931
+              "src": "assets/case-layout/9fe7c43879d67baf0ce1aabe05fd8d1eabff2cd6.png",
+              "alt": "image 3"
             }
-          ]
+          ],
+          "palette": [],
+          "typography": [],
+          "buttons": []
         },
         {
-          "id": "455-43940",
+          "id": "chapter-455-43940",
           "heading": "P2P Trading & Exchange App",
-          "body": "I designed a clean interface with clear visual hierarchy, intuitive navigation, and consistent components. The Orders screens make transaction status easy to scan, while currency indicators and structured offer cards help users quickly understand each transaction.\n\nKey Features\n P2P NGN ↔ USD exchange flow\n Clear order status: Pending, Completed, Cancelled, and Expired\n Auto-trade transaction indicators\n Structured transaction details and timestamps\n Bottom navigation for quick access to core sections\n Consistent UI components and responsive mobile layouts\n\nOutcome The resulting experience balances clarity, trust, and efficiency, giving users a straightforward way to monitor offers and manage P2P transactions.\n\nThe goal was to reduce cognitive load, make verification easy to follow, and build trust while collecting the information required to securely onboard users to Blomgram.",
+          "body": "I designed a clean interface with clear visual hierarchy, intuitive navigation, and consistent components. The Orders screens make transaction status easy to scan, while currency indicators and structured offer cards help users quickly understand each transaction.\n\n**Key Features**\n- P2P NGN ↔ USD exchange flow\n- Clear order status: Pending, Completed, Cancelled, and Expired\n- Auto-trade transaction indicators\n- Structured transaction details and timestamps\n- Bottom navigation for quick access to core sections\n- Consistent UI components and responsive mobile layouts\n\n**Outcome**\n\nThe resulting experience balances clarity, trust, and efficiency, giving users a straightforward way to monitor offers and manage P2P transactions.\n\nThe goal was to reduce cognitive load, make verification easy to follow, and build trust while collecting the information required to securely onboard users to Blomgram.",
+          "cards": [],
           "images": [
             {
-              "src": "assets/case-studies/4b8becc2391c9a45946abe7469f6abdc6b26adff.png",
-              "alt": "Blomgram — P2P Trading & Exchange App",
-              "width": 1262,
-              "height": 896.4610595703125
+              "src": "assets/case-layout/4b8becc2391c9a45946abe7469f6abdc6b26adff.png",
+              "alt": "image 5"
             }
-          ]
+          ],
+          "palette": [],
+          "typography": [],
+          "buttons": []
         },
         {
-          "id": "455-43948",
-          "heading": "Wallet flow and transactions",
-          "body": "Designed a scalable fintech wallet and transaction experience, focused on making currency management, trading, and transfers simple and intuitive.\nThe design prioritizes clear navigation, easy currency selection, transparent transaction details, and reusable components, creating a consistent user experience while providing a flexible foundation for multiple currencies, markets, and future financial services.\nFocus: User Experience • Scalability • Trust • Simplicity • Global Expansion",
+          "id": "chapter-455-43948",
+          "heading": "Wallet Flow and Transaction",
+          "body": "Designed a scalable fintech wallet and transaction experience, focused on making currency management, trading, and transfers simple and intuitive.\n\nThe design prioritizes clear navigation, easy currency selection, transparent transaction details, and reusable components, creating a consistent user experience while providing a flexible foundation for multiple currencies, markets, and future financial services.\n\nFocus: User Experience • Scalability • Trust • Simplicity • Global Expansion",
+          "cards": [],
           "images": [
             {
-              "src": "assets/case-studies/9d7187feeac604cb775db171fa97cdaf6766b4b6.png",
-              "alt": "Blomgram — Wallet flow and transactions",
-              "width": 1241.77587890625,
-              "height": 827.8505859375
+              "src": "assets/case-layout/9d7187feeac604cb775db171fa97cdaf6766b4b6.png",
+              "alt": "image 9"
             }
-          ]
+          ],
+          "palette": [],
+          "typography": [],
+          "buttons": []
         },
         {
-          "id": "455-44247",
+          "id": "chapter-455-43957",
+          "heading": "Product screens",
+          "body": "",
+          "cards": [],
+          "images": [
+            {
+              "src": "assets/case-layout/art-455-43958.svg",
+              "alt": "Frame 1618869815"
+            }
+          ],
+          "palette": [],
+          "typography": [],
+          "buttons": []
+        },
+        {
+          "id": "chapter-455-44247",
           "heading": "Reflections",
-          "body": "Deploying rapid, atomic component design libraries drastically expedited engineering cycles, ensuring visual alignment from concept straight to finished code in weeks.\n\nIntegrating our clean interface patterns with legacy financial databases required building advanced middleware strategies to balance low network speeds.\n\nHigh-net-worth users prioritize speed and clarity over flashy features. Elegant simplicity will always defeat visual noise when dealing with massive portfolios.\n\nFuture iterations could provide deeper voice-controlled interface states and advanced custom predictive analytics for sophisticated users.",
-          "images": []
+          "body": "**What Worked**\n\nDeploying rapid, atomic component design libraries drastically expedited engineering cycles, ensuring visual alignment from concept straight to finished code in weeks.\n\n**The Challenges**\n\nIntegrating our clean interface patterns with legacy financial databases required building advanced middleware strategies to balance low network speeds.\n\n**Lessons Learned**\n\nHigh-net-worth users prioritize speed and clarity over flashy features. Elegant simplicity will always defeat visual noise when dealing with massive portfolios.\n\n**Areas For Growth**\n\nFuture iterations could provide deeper voice-controlled interface states and advanced custom predictive analytics for sophisticated users.",
+          "cards": [],
+          "images": [],
+          "palette": [],
+          "typography": [],
+          "buttons": []
         }
-      ]
+      ],
+      "template": "figma-shared",
+      "accent": "#16263C"
     },
     {
       "id": "ai-patient-intake",
@@ -147,8 +319,8 @@
       "featured": true,
       "sourceUrl": "https://www.figma.com/design/IvuKG6Bsp3xg3LGsQDH2EI/Two-Digitals?node-id=455-30987",
       "cover": {
-        "src": "assets/case-studies/c9f29663e0d9e8726db659e2fdc4f151f3094f52.png",
-        "alt": "Ai-Patient Intake Form product design overview",
+        "src": "assets/case-layout/c9f29663e0d9e8726db659e2fdc4f151f3094f52.png",
+        "alt": "image 163",
         "width": 1240,
         "height": 826.6666870117188
       },
@@ -160,24 +332,208 @@
       },
       "sections": [
         {
-          "id": "455-31027",
-          "heading": "The Challenge",
-          "body": "Patient intake is an important part of the healthcare journey, but conventional forms can create friction for both patients and healthcare providers.\n\nPatient challenges\nLong and overwhelming forms\nRepetitive questions\nUnclear medical terminology\nDifficulty knowing which information is relevant\nPoor experience on mobile devices\nAnxiety when providing sensitive information\n\nHealthcare team challenges\nIncomplete patient information\nTime spent manually reviewing forms\nUnstructured responses\nRepeated questions during consultations\nAdministrative overhead\nDifficulty scaling intake processes across multiple patients\n\nThe design opportunity was to create an intake experience that feels simple for patients while producing structured, useful information for healthcare professionals.\n\nThe goal was to transform patient intake from a static questionnaire into an intelligent, guided experience.\n\nDesign objectives\nFor patients\nReduce the cognitive load of completing forms\nMake questions easier to understand\nGuide users through the process progressively\nReduce unnecessary questions\nClearly communicate progress and next steps\n\nFor healthcare teams\nCapture more complete patient information\nStructure responses consistently\nReduce manual data entry\nMake patient information easier to review\nSupport a scalable intake workflow",
-          "images": []
+          "id": "chapter-455-31027",
+          "heading": "Challenge and product goals",
+          "body": "",
+          "cards": [
+            {
+              "title": "The Challenge",
+              "body": "Patient intake is an important part of the healthcare journey, but conventional forms can create friction for both patients and healthcare providers.\n\n**Patient challenges**\n- Long and overwhelming forms\n- Repetitive questions\n- Unclear medical terminology\n- Difficulty knowing which information is relevant\n- Poor experience on mobile devices\n- Anxiety when providing sensitive information\n\n**Healthcare team challenges**\n- Incomplete patient information\n- Time spent manually reviewing forms\n- Unstructured responses\n- Repeated questions during consultations\n- Administrative overhead\n- Difficulty scaling intake processes across multiple patients\n\nThe design opportunity was to create an intake experience that feels simple for patients while producing structured, useful information for healthcare professionals.",
+              "image": null
+            },
+            {
+              "title": "Product Goal",
+              "body": "The goal was to transform patient intake from a static questionnaire into an intelligent, guided experience.\n\nDesign objectives\n\nFor patients\n- Reduce the cognitive load of completing forms\n- Make questions easier to understand\n- Guide users through the process progressively\n- Reduce unnecessary questions\n- Clearly communicate progress and next steps\n\nFor healthcare teams\n- Capture more complete patient information\n- Structure responses consistently\n- Reduce manual data entry\n- Make patient information easier to review\n- Support a scalable intake workflow",
+              "image": null
+            }
+          ],
+          "images": [],
+          "palette": [],
+          "typography": [],
+          "buttons": []
         },
         {
-          "id": "455-31048",
+          "id": "chapter-455-31048",
           "heading": "My Design Approach",
-          "body": "I mapped the existing patient journey to identify where users experienced friction.\n\nThe journey was divided into:\nStart → Personal Information → Medical History → Symptoms → Medications → Insurance → Review → Submit.\n\nRather than presenting everything on one page, I explored a progressive approach where patients only encounter the information relevant to their current step.\nThis helped reduce visual and cognitive overload.\n\n02  Design for Progressive Disclosure\n\nOne of the core UX decisions was to avoid presenting a long form upfront.\nInstead, information is revealed progressively.\n\nFor example:\nWhat brings you in today?\n\nAfter the patient selects a reason for their visit, the system can present relevant follow-up questions.\nThis creates a more focused experience and prevents patients from answering questions that may not apply to them.\n\nAI was incorporated as an assistive layer, rather than replacing clinical judgment.\n\nThe AI can help:\nIdentify relevant follow-up questions\nSimplify complex terminology\nDetect potentially missing information\nOrganize free-text responses\nSummarize information for review\nAdapt the intake flow based on patient responses",
-          "images": []
+          "body": "",
+          "cards": [
+            {
+              "title": "01 Understand the Intake Journey",
+              "body": "I mapped the existing patient journey to identify where users experienced friction.\n\n**The journey was divided into**\n**Start → Personal Information → Medical History → Symptoms → Medications → Insurance → Review → Submit.**\n\nRather than presenting everything on one page, I explored a progressive approach where patients only encounter the information relevant to their current step.\n\nThis helped reduce visual and cognitive overload.",
+              "image": null
+            },
+            {
+              "title": "02 Design for Progressive Disclosure",
+              "body": "One of the core UX decisions was to avoid presenting a long form upfront.\n\nInstead, information is revealed progressively.\n\n**For example**\n**What brings you in today?**\n\nAfter the patient selects a reason for their visit, the system can present relevant follow-up questions.\n\nThis creates a more focused experience and prevents patients from answering questions that may not apply to them.",
+              "image": null
+            },
+            {
+              "title": "03 Introduce AI Assistance",
+              "body": "AI was incorporated as an assistive layer, rather than replacing clinical judgment.\n\n**The AI can help**\n- Identify relevant follow-up questions\n- Simplify complex terminology\n- Detect potentially missing information\n- Organize free-text responses\n- Summarize information for review\n- Adapt the intake flow based on patient responses",
+              "image": null
+            }
+          ],
+          "images": [],
+          "palette": [],
+          "typography": [],
+          "buttons": []
         },
         {
-          "id": "455-31095",
-          "heading": "User experience",
-          "body": "The intake flow was designed to feel more like a guided conversation than a traditional administrative form.\n\nStep 1 — Welcome\n\nThe patient is introduced to the process with a clear explanation of what they will need and approximately how long the intake will take.\nDesign principle: Reduce uncertainty before asking for information.\n\nEssential information such as:\nFull name\nDate of birth\nContact information\nAddress\nEmergency contact\n\nis collected through simple, clearly labelled fields.\n\nThe patient selects or describes why they are seeking care.\nThe AI uses this information to determine which additional questions may be relevant.\n\nInstead of presenting a large checklist, information is collected progressively.\n\nPatients can indicate:\nExisting conditions\nPrevious procedures\nAllergies\nCurrent medications\nFamily history\n\nThe interface provides contextual explanations where necessary.\n\nPatients can describe their symptoms in their own words.\nThe AI can help structure the response by identifying information such as:\nSymptom → Duration → Severity → Frequency → Related \n\nSymptoms\nThe patient can then review the captured information before continuing.\n\nBefore submission, patients receive a summary of their responses.\nThis gives them an opportunity to:\nEdit incorrect information\nAdd missing details\nConfirm important information\nReview what will be shared with the healthcare team\nThis step builds confidence and reduces avoidable data-entry errors.",
-          "images": []
+          "id": "chapter-455-31095",
+          "heading": "User Experience",
+          "body": "",
+          "cards": [
+            {
+              "title": "A guided onboarding experience",
+              "body": "The intake flow was designed to feel more like a guided conversation than a traditional administrative form.\n\n**Step 1 — Welcome**\n\nThe patient is introduced to the process with a clear explanation of what they will need and approximately how long the intake will take.\n\nDesign principle: Reduce uncertainty before asking for information.",
+              "image": null
+            },
+            {
+              "title": "Step 2 — Personal Information",
+              "body": "Essential information such as:\n- Full name\n- Date of birth\n- Contact information\n- Address\n- Emergency contact\n\nis collected through simple, clearly labelled fields.",
+              "image": null
+            },
+            {
+              "title": "Step 3 — Reason for Visit",
+              "body": "The patient selects or describes why they are seeking care.\n\nThe AI uses this information to determine which additional questions may be relevant.",
+              "image": null
+            },
+            {
+              "title": "Step 4 — Medical History",
+              "body": "Instead of presenting a large checklist, information is collected progressively.\n\n**Patients can indicate**\n- Existing conditions\n- Previous procedures\n- Allergies\n- Current medications\n- Family history\n\nThe interface provides contextual explanations where necessary.",
+              "image": null
+            },
+            {
+              "title": "Step 5 — Symptoms",
+              "body": "Patients can describe their symptoms in their own words.\n\nThe AI can help structure the response by identifying information such as:\n**Symptom → Duration → Severity → Frequency → Related**\n\n**Symptoms**\n\nThe patient can then review the captured information before continuing.",
+              "image": null
+            },
+            {
+              "title": "Step 6 — Review & Confirmation",
+              "body": "Before submission, patients receive a summary of their responses.\n\nThis gives them an opportunity to:\n- Edit incorrect information\n- Add missing details\n- Confirm important information\n- Review what will be shared with the healthcare team\n\nThis step builds confidence and reduces avoidable data-entry errors.",
+              "image": null
+            }
+          ],
+          "images": [],
+          "palette": [],
+          "typography": [],
+          "buttons": []
+        },
+        {
+          "id": "chapter-455-31143",
+          "heading": "Strict Modular Foundations",
+          "body": "Clean, utility-focused typographic scales, geometric color spaces, and composable UI blocks.",
+          "cards": [],
+          "images": [],
+          "palette": [
+            {
+              "group": "Brand palette",
+              "name": "Primary",
+              "color": "#4F46E5"
+            },
+            {
+              "group": "Brand palette",
+              "name": "Secondary",
+              "color": "#330066"
+            },
+            {
+              "group": "Brand palette",
+              "name": "Tertiary",
+              "color": "#33CC33"
+            },
+            {
+              "group": "Brand palette",
+              "name": "Neutral",
+              "color": "#D4D2FF"
+            },
+            {
+              "group": "Brand palette",
+              "name": "Parchment",
+              "color": "#FAFAFA"
+            },
+            {
+              "group": "Color Space",
+              "name": "Ink Primary",
+              "color": "#C62A2F"
+            },
+            {
+              "group": "Color Space",
+              "name": "Slate Secondary",
+              "color": "#15C473"
+            },
+            {
+              "group": "Color Space",
+              "name": "Studio Gold",
+              "color": "#30913A"
+            },
+            {
+              "group": "Color Space",
+              "name": "Dividers",
+              "color": "#F5C518"
+            },
+            {
+              "group": "Color Space",
+              "name": "Parchment",
+              "color": "#FAFAFA"
+            }
+          ],
+          "typography": [
+            {
+              "label": "Inter — 36px",
+              "size": 36
+            },
+            {
+              "label": "Inter body copy standard — 16px",
+              "size": 16
+            },
+            {
+              "label": "Inter Technical Telemetry — 12px",
+              "size": 12
+            }
+          ],
+          "buttons": [
+            "Primary CTA",
+            "Secondary"
+          ]
+        },
+        {
+          "id": "chapter-455-31294",
+          "heading": "Product screens",
+          "body": "",
+          "cards": [],
+          "images": [
+            {
+              "src": "assets/case-layout/c93381f1f3bcbcee1f2315a2e7651aa7431cc5be.png",
+              "alt": "image 167"
+            },
+            {
+              "src": "assets/case-layout/5f689eb2416489115d0c8652a6f178cb375845d0.png",
+              "alt": "image 169"
+            },
+            {
+              "src": "assets/case-layout/art-455-31565.svg",
+              "alt": "Frame 1171276231"
+            },
+            {
+              "src": "assets/case-layout/art-455-31708.svg",
+              "alt": "container"
+            },
+            {
+              "src": "assets/case-layout/art-455-32405.svg",
+              "alt": "container"
+            },
+            {
+              "src": "assets/case-layout/afbf4f0feca25770f6af9507f0f27f3fa5e52555.png",
+              "alt": "image 171"
+            }
+          ],
+          "palette": [],
+          "typography": [],
+          "buttons": []
         }
-      ]
+      ],
+      "template": "figma-shared",
+      "accent": "#4F46E5"
     },
     {
       "id": "sellflo",
@@ -190,8 +546,8 @@
       "featured": true,
       "sourceUrl": "https://www.figma.com/design/IvuKG6Bsp3xg3LGsQDH2EI/Two-Digitals?node-id=455-32865",
       "cover": {
-        "src": "assets/case-studies/aba3c290ea8a42f4349c06a516b0cc3cdc5c00d9.png",
-        "alt": "Sellflo product design overview",
+        "src": "assets/case-layout/aba3c290ea8a42f4349c06a516b0cc3cdc5c00d9.png",
+        "alt": "image 172",
         "width": 1212,
         "height": 808
       },
@@ -203,30 +559,261 @@
       },
       "sections": [
         {
-          "id": "455-32898",
-          "heading": "The Challenge",
-          "body": "Merchants and creators often need to manage multiple activities across separate tools. Merchants may struggle to monitor sales performance, manage products, and evaluate campaign effectiveness. Creators may find it difficult to identify suitable products, track affiliate links, and understand which promotional activities generate revenue.\n\nKey Design Challenges\nFragmented workflows: Product management, campaign management, and analytics can require switching between different tools.\nLimited visibility: Users need a clear overview of sales, clicks, conversions, and earnings.\nCampaign tracking: Merchants and creators need accessible performance data to evaluate promotional activities.\nOperational complexity: Important actions should be easy to find without overwhelming users with information.\nDifferent user needs: Merchants and creators require related features but different dashboards and priorities.\n\nThe goal was to transform patient intake from a static questionnaire into an intelligent, guided experience.\n\nPROJECT GOALS\nThe design focused on five primary objectives:\nCentralize essential commerce and affiliate marketing activities.\nMake business performance easy to understand at a glance.\nSimplify product and campaign management.\nImprove visibility into affiliate clicks, conversions, and earnings.\nCreate a scalable interface that supports both merchants and creators.",
-          "images": []
+          "id": "chapter-455-32898",
+          "heading": "Challenge and product goals",
+          "body": "",
+          "cards": [
+            {
+              "title": "The Challenge",
+              "body": "Merchants and creators often need to manage multiple activities across separate tools. Merchants may struggle to monitor sales performance, manage products, and evaluate campaign effectiveness. Creators may find it difficult to identify suitable products, track affiliate links, and understand which promotional activities generate revenue.\n\n**Key Design Challenges**\n- Fragmented workflows: Product management, campaign management, and analytics can require switching between different tools.\n- Limited visibility: Users need a clear overview of sales, clicks, conversions, and earnings.\n- Campaign tracking: Merchants and creators need accessible performance data to evaluate promotional activities.\n- Operational complexity: Important actions should be easy to find without overwhelming users with information.\n- Different user needs: Merchants and creators require related features but different dashboards and priorities.",
+              "image": null
+            },
+            {
+              "title": "Product Goal",
+              "body": "The goal was to bring commerce management and creator collaboration into a clear, shared workspace with role-specific dashboards.\n\nPROJECT GOALS\n\nThe design focused on five primary objectives:\n1. Centralize essential commerce and affiliate marketing activities.\n2. Make business performance easy to understand at a glance.\n3. Simplify product and campaign management.\n4. Improve visibility into affiliate clicks, conversions, and earnings.\n5. Create a scalable interface that supports both merchants and creators.",
+              "image": null
+            }
+          ],
+          "images": [],
+          "palette": [],
+          "typography": [],
+          "buttons": []
         },
         {
-          "id": "455-32919",
+          "id": "chapter-455-32919",
           "heading": "Understanding the Users",
-          "body": "Sellflo serves two primary user groups with different goals and responsibilities.\n\nProfile: An online business owner or e-commerce operator who wants to increase product visibility and sales through creator partnerships.\n\nAdd and manage products.\nCreate and monitor marketing campaigns.\nTrack orders, revenue, and conversions.\nDiscover creators to promote products.\nUnderstand which campaigns generate results.\nAdd and manage products.\nCreate and monitor marketing campaigns.\nTrack orders, revenue, and conversions.\nDiscover creators to promote products.\nUnderstand which campaigns generate results.\n\nDifficulty monitoring multiple business metrics.\nLimited visibility into campaign performance.\nTime-consuming product and order management.\nDifficulty measuring the return on creator partnerships.\n\nDesign Opportunity: Provide a unified merchant dashboard with sales analytics, product management, campaign controls, and creator performance insights.\n\nProfile: A content creator or affiliate marketer who promotes products and earns commissions from successful referrals.\n\nDiscover relevant products to promote.\nAccess affiliate links and campaign details.\nTrack clicks, conversions, and commissions.\nMonitor payouts and payment status.\nIdentify products and campaigns that perform well.\n\nUncertainty about which promotions convert.\nDifficulty tracking earnings across campaigns.\nLimited transparency into commission and payout status.\nToo many steps between discovering a product and promoting it.\n\nDesign Opportunity: Build a creator-focused workspace that prioritizes product discovery, affiliate link management, performance tracking, and earnings visibility.",
-          "images": []
+          "body": "Sellflo serves two primary user groups with different goals and responsibilities.",
+          "cards": [
+            {
+              "title": "Persona 1: The Merchant",
+              "body": "Profile: An online business owner or e-commerce operator who wants to increase product visibility and sales through creator partnerships.",
+              "image": null
+            },
+            {
+              "title": "User Goals",
+              "body": "- Add and manage products.\n- Create and monitor marketing campaigns.\n- Track orders, revenue, and conversions.\n- Discover creators to promote products.\n- Understand which campaigns generate results.\n- Add and manage products.\n- Create and monitor marketing campaigns.\n- Track orders, revenue, and conversions.\n- Discover creators to promote products.\n- Understand which campaigns generate results.",
+              "image": null
+            },
+            {
+              "title": "Pain Points",
+              "body": "- Difficulty monitoring multiple business metrics.\n- Limited visibility into campaign performance.\n- Time-consuming product and order management.\n- Difficulty measuring the return on creator partnerships.\n\nDesign Opportunity: Provide a unified merchant dashboard with sales analytics, product management, campaign controls, and creator performance insights.",
+              "image": null
+            },
+            {
+              "title": "Persona 2: The Creator",
+              "body": "Profile: A content creator or affiliate marketer who promotes products and earns commissions from successful referrals.",
+              "image": null
+            },
+            {
+              "title": "User Goals",
+              "body": "- Discover relevant products to promote.\n- Access affiliate links and campaign details.\n- Track clicks, conversions, and commissions.\n- Monitor payouts and payment status.\n- Identify products and campaigns that perform well.",
+              "image": null
+            },
+            {
+              "title": "Pain Points",
+              "body": "- Uncertainty about which promotions convert.\n- Difficulty tracking earnings across campaigns.\n- Limited transparency into commission and payout status.\n- Too many steps between discovering a product and promoting it.\n\n- Design Opportunity: Build a creator-focused workspace that prioritizes product discovery, affiliate link management, performance tracking, and earnings visibility.",
+              "image": null
+            }
+          ],
+          "images": [],
+          "palette": [],
+          "typography": [],
+          "buttons": []
         },
         {
-          "id": "455-32967",
-          "heading": "The Design Strategy",
-          "body": "Rather than forcing both audiences into the same experience, Sellflo uses a shared design system with role-specific dashboards.\n\nMerchant Experience\nSales and revenue overview\nProduct inventory and management\nCampaign creation and monitoring\nCreator collaboration\nOrders and conversion analytics\nPayout and transaction management\n\nCreators Experience\nRecommended products and campaigns\nAffiliate link management\nClicks and conversion tracking\nCommission and earnings overview\nPayout history\nCampaign performance analytics\n\nThe design opportunity was to create an intake experience that feels simple for patients while producing structured, useful information for healthcare professionals.\n\nThe goal was to transform patient intake from a static questionnaire into an intelligent, guided experience.\n\nDesign objectives\nFor patients\nReduce the cognitive load of completing forms\nMake questions easier to understand\nGuide users through the process progressively\nReduce unnecessary questions\nClearly communicate progress and next steps\n\nFor healthcare teams\nCapture more complete patient information\nStructure responses consistently\nReduce manual data entry\nMake patient information easier to review\nSupport a scalable intake workflow",
-          "images": []
+          "id": "chapter-455-32967",
+          "heading": "Challenge and product goals",
+          "body": "",
+          "cards": [
+            {
+              "title": "The Design Strategy",
+              "body": "Rather than forcing both audiences into the same experience, Sellflo uses a shared design system with role-specific dashboards.\n\n**Merchant Experience**\n- Sales and revenue overview\n- Product inventory and management\n- Campaign creation and monitoring\n- Creator collaboration\n- Orders and conversion analytics\n- Payout and transaction management\n\n**Creators Experience**\n- Recommended products and campaigns\n- Affiliate link management\n- Clicks and conversion tracking\n- Commission and earnings overview\n- Payout history\n- Campaign performance analytics\n\nThe design opportunity was to create an intake experience that feels simple for patients while producing structured, useful information for healthcare professionals.",
+              "image": null
+            },
+            {
+              "title": "Product Goal",
+              "body": "The goal was to bring commerce management and creator collaboration into a clear, shared workspace with role-specific dashboards.\n\nDesign objectives\n\nFor patients\n- Reduce the cognitive load of completing forms\n- Make questions easier to understand\n- Guide users through the process progressively\n- Reduce unnecessary questions\n- Clearly communicate progress and next steps\n\nFor healthcare teams\n- Capture more complete patient information\n- Structure responses consistently\n- Reduce manual data entry\n- Make patient information easier to review\n- Support a scalable intake workflow",
+              "image": null
+            }
+          ],
+          "images": [],
+          "palette": [],
+          "typography": [],
+          "buttons": []
         },
         {
-          "id": "455-34078",
+          "id": "chapter-455-32988",
+          "heading": "Strict Modular Foundations",
+          "body": "Clean, utility-focused typographic scales, geometric color spaces, and composable UI blocks.",
+          "cards": [],
+          "images": [],
+          "palette": [
+            {
+              "group": "Brand palette",
+              "name": "Primary",
+              "color": "#038CF7"
+            },
+            {
+              "group": "Brand palette",
+              "name": "Secondary",
+              "color": "#360177"
+            },
+            {
+              "group": "Brand palette",
+              "name": "Tertiary",
+              "color": "#FC6601"
+            },
+            {
+              "group": "Brand palette",
+              "name": "Neutral",
+              "color": "#D4D2FF"
+            },
+            {
+              "group": "Brand palette",
+              "name": "Parchment",
+              "color": "#FAFAFA"
+            },
+            {
+              "group": "Color Space",
+              "name": "Ink Primary",
+              "color": "#C62A2F"
+            },
+            {
+              "group": "Color Space",
+              "name": "Slate Secondary",
+              "color": "#15C473"
+            },
+            {
+              "group": "Color Space",
+              "name": "Studio Gold",
+              "color": "#30913A"
+            },
+            {
+              "group": "Color Space",
+              "name": "Dividers",
+              "color": "#F5C518"
+            },
+            {
+              "group": "Color Space",
+              "name": "Parchment",
+              "color": "#FAFAFA"
+            }
+          ],
+          "typography": [
+            {
+              "label": "Inter — 36px",
+              "size": 36
+            },
+            {
+              "label": "Inter body copy standard — 16px",
+              "size": 16
+            },
+            {
+              "label": "Inter Technical Telemetry — 12px",
+              "size": 12
+            }
+          ],
+          "buttons": [
+            "Primary CTA",
+            "Secondary"
+          ]
+        },
+        {
+          "id": "chapter-455-33089",
+          "heading": "Product screens",
+          "body": "",
+          "cards": [],
+          "images": [
+            {
+              "src": "assets/case-layout/art-455-33090.svg",
+              "alt": "Creators Dashboard"
+            },
+            {
+              "src": "assets/case-layout/art-455-33712.svg",
+              "alt": "Dashboard"
+            }
+          ],
+          "palette": [],
+          "typography": [],
+          "buttons": []
+        },
+        {
+          "id": "chapter-455-34078",
           "heading": "My Design Approach",
-          "body": "The sidebar groups major features into clearly recognizable sections.\nDesign rationale: Persistent navigation helps users move between tasks without losing context. Grouping related items also reduces the effort required to locate key features.\n\nB. Performance Summary Cards\nThe dashboard presents high-level metrics such as:\nTotal orders\nTotal earnings\nTotal clicks\nTotal conversions\nEach card combines a prominent metric, an icon, and a contextual performance indicator.\nDesign rationale: Users should be able to understand their current performance quickly before exploring detailed analytics.\nFor merchants, these cards can emphasize orders, sales, and conversions. For creators, the same component can display earnings, clicks, commissions, and conversions.\n\nThe analytics section uses line and bar charts to communicate changes in performance over time.\nLine charts help users compare clicks, orders, or revenue trends.\nBar charts help users compare daily earnings, payouts, or campaign activity.\nTooltips can reveal precise values when users interact with individual data points.\n\nDesign rationale: Clear data visualization helps users identify trends and investigate performance changes without navigating through lengthy reports.\n\nD. Product and Activity Table\nThe table displays operational information in a structured format, including product names, locations, dates, quantities, amounts, and statuses.\nDesign rationale: Tables make detailed records easy to scan, compare, and review. Status indicators help users distinguish completed, pending, and rejected transactions.\nFor Sellflo, this component can be adapted to show orders for merchants and commission or payout records for creators.\n\nThe prominent product action in the reference dashboard demonstrates how important tasks can be surfaced directly within the workspace.\nSellflo can extend this approach with actions such as:\nAdd Product\nCreate Campaign\nDiscover Products\nGenerate Affiliate Link\nRequest Payout\n\nDesign rationale: Contextual actions reduce navigation friction and help users complete frequent tasks faster.",
-          "images": []
+          "body": "",
+          "cards": [
+            {
+              "title": "A. Sidebar Navigation",
+              "body": "The sidebar groups major features into clearly recognizable sections.\n\nDesign rationale: Persistent navigation helps users move between tasks without losing context. Grouping related items also reduces the effort required to locate key features.\n\n**B. Performance Summary Cards**\n\nThe dashboard presents high-level metrics such as:\n- Total orders\n- Total earnings\n- Total clicks\n- Total conversions\n\nEach card combines a prominent metric, an icon, and a contextual performance indicator.\n\nDesign rationale: Users should be able to understand their current performance quickly before exploring detailed analytics.\n\nFor merchants, these cards can emphasize orders, sales, and conversions. For creators, the same component can display earnings, clicks, commissions, and conversions.",
+              "image": null
+            },
+            {
+              "title": "C. Analytics and Visualization",
+              "body": "The analytics section uses line and bar charts to communicate changes in performance over time.\n- Line charts help users compare clicks, orders, or revenue trends.\n- Bar charts help users compare daily earnings, payouts, or campaign activity.\n- Tooltips can reveal precise values when users interact with individual data points.\n\nDesign rationale: Clear data visualization helps users identify trends and investigate performance changes without navigating through lengthy reports.\n\n**D. Product and Activity Table**\n\nThe table displays operational information in a structured format, including product names, locations, dates, quantities, amounts, and statuses.\n\nDesign rationale: Tables make detailed records easy to scan, compare, and review. Status indicators help users distinguish completed, pending, and rejected transactions.\n\nFor Sellflo, this component can be adapted to show orders for merchants and commission or payout records for creators.",
+              "image": null
+            },
+            {
+              "title": "E. Quick Actions",
+              "body": "The prominent product action in the reference dashboard demonstrates how important tasks can be surfaced directly within the workspace.\n\nSellflo can extend this approach with actions such as:\n- Add Product\n- Create Campaign\n- Discover Products\n- Generate Affiliate Link\n- Request Payout\n\nDesign rationale: Contextual actions reduce navigation friction and help users complete frequent tasks faster.",
+              "image": null
+            }
+          ],
+          "images": [],
+          "palette": [],
+          "typography": [],
+          "buttons": []
+        },
+        {
+          "id": "chapter-455-34104",
+          "heading": "Creator dashboard",
+          "body": "Show product discovery, affiliate links, conversion analytics, commissions, and payout tracking.",
+          "cards": [],
+          "images": [
+            {
+              "src": "assets/case-layout/art-455-34105.svg",
+              "alt": "Creators  Affiliate Links"
+            },
+            {
+              "src": "assets/case-layout/art-455-34727.svg",
+              "alt": "Creators  Affiliate Links"
+            }
+          ],
+          "palette": [],
+          "typography": [],
+          "buttons": []
+        },
+        {
+          "id": "chapter-455-35047",
+          "heading": "Merchant dashboard",
+          "body": "Highlight orders, revenue, campaign performance, product management, and merchant-specific quick actions.",
+          "cards": [],
+          "images": [],
+          "palette": [],
+          "typography": [],
+          "buttons": []
+        },
+        {
+          "id": "chapter-455-35054",
+          "heading": "Product screens",
+          "body": "",
+          "cards": [],
+          "images": [
+            {
+              "src": "assets/case-layout/art-455-35054.svg",
+              "alt": "Frame 2147227448"
+            },
+            {
+              "src": "assets/case-layout/art-455-37227.svg",
+              "alt": "Landing Page"
+            }
+          ],
+          "palette": [],
+          "typography": [],
+          "buttons": []
         }
-      ]
+      ],
+      "template": "figma-shared",
+      "accent": "#038CF7"
     },
     {
       "id": "vpn-medical",
@@ -239,8 +826,8 @@
       "featured": true,
       "sourceUrl": "https://www.figma.com/design/IvuKG6Bsp3xg3LGsQDH2EI/Two-Digitals?node-id=478-1917",
       "cover": {
-        "src": "assets/case-studies/156e4d0d4b9695652241c97f3fbac78626c285c2.png",
-        "alt": "VPN Medical Appointment Management System product design overview",
+        "src": "assets/case-layout/art-483-29538.svg",
+        "alt": "Frame 2147227463",
         "width": 1302,
         "height": 926.7708129882812
       },
@@ -252,37 +839,252 @@
       },
       "sections": [
         {
-          "id": "478-1974",
-          "heading": "The Challenge",
-          "body": "Healthcare appointment coordination can become complicated when patients, guardians, care managers, case managers, agencies, and network administrators rely on different processes to manage the same patient journey.\n\nKey Design Challenges:\n\nPotential challenges include:\nPatients struggling to book, confirm, reschedule, or track appointments.\nGuardians needing to coordinate appointments on behalf of dependants.\nCare and case managers requiring visibility into appointments and follow-up actions.\nAgency and network users needing to coordinate services across multiple patients or providers.\nDistrict administrators requiring appropriate oversight without unrestricted access to sensitive patient information.\nMissed appointments, duplicated records, and unclear responsibilities caused by fragmented communication.\n\nHow might we create one connected appointment management experience that gives every user the tools they need without overwhelming them with irrelevant information or exposing data beyond their authorization?\n\nThe platform serves seven distinct user roles. Each role has different responsibilities, permissions, and information needs. A major part of the product design challenge is ensuring that users see the right information and can perform the right actions based on their roles.",
-          "images": []
-        },
-        {
-          "id": "478-1995",
-          "heading": "Research and discovery",
-          "body": "Before designing the interface, I would investigate how appointments are currently requested, approved, scheduled, attended, and followed up.\n\nResearch objectives:\nUnderstand the existing appointment workflow and its bottlenecks.\nIdentify the tasks performed by each of the seven user roles.\nUnderstand who can book, approve, modify, and cancel appointments.\nIdentify information-sharing requirements between patients and authorized representatives.\nDiscover how appointment reminders, missed visits, and follow-up actions are handled.\nMap the permissions and reporting requirements at agency, network, and district levels.\n\nThe primary problem may not simply be booking an appointment. It may be the lack of a shared, reliable view of what happens before, during, and after that appointment.\nThat hypothesis would guide research and be validated before finalizing the solution.\n\nDashboard\nAppointments\nNotifications\nProfile and settings\n\nGuardian: Linked patients\nAgency User: Agency appointments and service coordination\nNetwork User: Network and provider overview\nCare Manager: Assigned patients and follow-ups\nCase Manager: Cases and case-linked appointments\nDistrict Super User: User administration, permissions, configuration, and reports",
-          "images": []
-        },
-        {
-          "id": "478-3154",
-          "heading": "Client (Patient) Dashboard",
-          "body": "Dashboard: Upcoming appointments, reminders, and quick actions.\nBook Appointment: Select service, provider, date, and time.\nMy Appointments: View upcoming, completed, cancelled, and missed appointments.\nAppointment Details: View location, provider, date, time, and instructions.\nReschedule or Cancel: Modify appointments according to policy.\nNotifications: Booking confirmations, reminders, and schedule updates.\nAppointment History: Review previous visits and statuses.\nProfile and Settings: Manage personal details and communication preferences.\n\nGuardian Dashboard: Overview of linked patients and their upcoming appointments.\nLinked Patient Profiles: View and switch between authorized dependants.\nBook Appointment: Schedule appointments for a selected patient.\nManage Appointments: View, reschedule, or cancel permitted bookings.\nPatient Appointment Details: Access relevant visit information.\nNotifications: Receive reminders and updates for linked patients.\nPatient History: Review accessible appointment records.\nGuardian Profile: Manage personal information and authorization settings.\n\nAgency Dashboard: Appointment summaries, pending tasks, and upcoming visits.\nPatient Directory: Search and view patients within the agency's scope.\nAppointment Management: Create, view, update, or cancel permitted appointments.\nScheduling Calendar: View appointments by date, patient, or provider.\nAppointment Status Tracking: Monitor pending, confirmed, completed, and missed visits.\nCare Coordination: Manage appointment-related communication and follow-up tasks.\nReports: Review agency appointment activity and operational trends.\nStaff and Profile Settings: Manage permitted staff details and agency information.",
-          "images": []
-        },
-        {
-          "id": "492-20379",
-          "heading": "Appointment management interface",
+          "id": "project-preview",
+          "heading": "Project preview",
           "body": "",
           "images": [
             {
-              "src": "assets/case-studies/156e4d0d4b9695652241c97f3fbac78626c285c2.png",
-              "alt": "VPN Medical Appointment Management System — Appointment management interface",
-              "width": 1302,
-              "height": 926.7708129882812
+              "src": "assets/case-layout/art-493-30246.svg",
+              "alt": "Frame 2147227464"
             }
           ]
+        },
+        {
+          "id": "chapter-478-1974",
+          "heading": "Challenge and product goals",
+          "body": "",
+          "cards": [
+            {
+              "title": "The Challenge",
+              "body": "Healthcare appointment coordination can become complicated when patients, guardians, care managers, case managers, agencies, and network administrators rely on different processes to manage the same patient journey.\n\n**Key Design Challenges**\n\n- Potential challenges include:\n- Patients struggling to book, confirm, reschedule, or track appointments.\n- Guardians needing to coordinate appointments on behalf of dependants.\n- Care and case managers requiring visibility into appointments and follow-up actions.\n- Agency and network users needing to coordinate services across multiple patients or providers.\n- District administrators requiring appropriate oversight without unrestricted access to sensitive patient information.\n- Missed appointments, duplicated records, and unclear responsibilities caused by fragmented communication.",
+              "image": null
+            },
+            {
+              "title": "",
+              "body": "The design challenge:\n\nHow might we create one connected appointment management experience that gives every user the tools they need without overwhelming them with irrelevant information or exposing data beyond their authorization?",
+              "image": null
+            },
+            {
+              "title": "",
+              "body": "Understanding the users\n\nThe platform serves seven distinct user roles. Each role has different responsibilities, permissions, and information needs. A major part of the product design challenge is ensuring that users see the right information and can perform the right actions based on their roles.",
+              "image": null
+            }
+          ],
+          "images": [],
+          "palette": [],
+          "typography": [],
+          "buttons": []
+        },
+        {
+          "id": "chapter-478-1995",
+          "heading": "4. Research and discovery",
+          "body": "",
+          "cards": [
+            {
+              "title": "Research and Discovery",
+              "body": "Before designing the interface, I would investigate how appointments are currently requested, approved, scheduled, attended, and followed up.\n\n**Research objectives**\n- Understand the existing appointment workflow and its bottlenecks.\n- Identify the tasks performed by each of the seven user roles.\n- Understand who can book, approve, modify, and cancel appointments.\n- Identify information-sharing requirements between patients and authorized representatives.\n- Discover how appointment reminders, missed visits, and follow-up actions are handled.\n- Map the permissions and reporting requirements at agency, network, and district levels.",
+              "image": null
+            },
+            {
+              "title": "Key design hypothesis",
+              "body": "- The primary problem may not simply be booking an appointment. It may be the lack of a shared, reliable view of what happens before, during, and after that appointment.\n- That hypothesis would guide research and be validated before finalizing the solution.\n\nInformation architecture\n\n- Dashboard\n- Appointments\n- Notifications\n- Profile and settings",
+              "image": null
+            },
+            {
+              "title": "Role-specific navigation",
+              "body": "- Guardian: Linked patients\n- Agency User: Agency appointments and service coordination\n- Network User: Network and provider overview\n- Care Manager: Assigned patients and follow-ups\n- Case Manager: Cases and case-linked appointments\n- District Super User: User administration, permissions, configuration, and reports",
+              "image": null
+            }
+          ],
+          "images": [],
+          "palette": [],
+          "typography": [],
+          "buttons": []
+        },
+        {
+          "id": "chapter-478-2064",
+          "heading": "Design System",
+          "body": "",
+          "cards": [],
+          "images": [],
+          "palette": [
+            {
+              "group": "Primary,",
+              "name": "Primary / 100",
+              "color": "#EDF5FF"
+            },
+            {
+              "group": "Primary,",
+              "name": "Primary / 200",
+              "color": "#D1E2FF"
+            },
+            {
+              "group": "Primary,",
+              "name": "Primary / 300",
+              "color": "#0F67FE"
+            },
+            {
+              "group": "Primary,",
+              "name": "Primary / 400",
+              "color": "#0151DA"
+            },
+            {
+              "group": "Primary,",
+              "name": "Primary / 500",
+              "color": "#001C4C"
+            },
+            {
+              "group": "Neutral, Gray",
+              "name": "White",
+              "color": "#FFFFFF"
+            },
+            {
+              "group": "Neutral, Gray",
+              "name": "Secondary / 100",
+              "color": "#F8FAFC"
+            },
+            {
+              "group": "Neutral, Gray",
+              "name": "Secondary / 200",
+              "color": "#D9E4ED"
+            },
+            {
+              "group": "Neutral, Gray",
+              "name": "Secondary / 300",
+              "color": "#BACEDE"
+            },
+            {
+              "group": "Neutral, Gray",
+              "name": "Secondary / 400",
+              "color": "#8B9298"
+            },
+            {
+              "group": "Neutral, Gray",
+              "name": "Black",
+              "color": "#09111D"
+            },
+            {
+              "group": "Yellow",
+              "name": "Yellow / 100",
+              "color": "#FFFDED"
+            },
+            {
+              "group": "Yellow",
+              "name": "Yellow / 200",
+              "color": "#FDE74C"
+            },
+            {
+              "group": "Yellow",
+              "name": "Yellow / 300",
+              "color": "#FDE121"
+            },
+            {
+              "group": "Yellow",
+              "name": "Yellow / 400",
+              "color": "#BEAD39"
+            },
+            {
+              "group": "Red",
+              "name": "Red / 100",
+              "color": "#FBE9EC"
+            },
+            {
+              "group": "Red",
+              "name": "Red / 200",
+              "color": "#F3BCC3"
+            },
+            {
+              "group": "Red",
+              "name": "Red / 300",
+              "color": "#D7263D"
+            },
+            {
+              "group": "Red",
+              "name": "Red / 400",
+              "color": "#A11D2E"
+            },
+            {
+              "group": "Green",
+              "name": "Green / 100",
+              "color": "#E6FCF9"
+            },
+            {
+              "group": "Green",
+              "name": "Green / 200",
+              "color": "#00CAAC"
+            },
+            {
+              "group": "Green",
+              "name": "Green / 300",
+              "color": "#009982"
+            },
+            {
+              "group": "Green",
+              "name": "Green / 400",
+              "color": "#006657"
+            }
+          ],
+          "typography": [],
+          "buttons": []
+        },
+        {
+          "id": "chapter-478-3154",
+          "heading": "Product screens",
+          "body": "",
+          "cards": [
+            {
+              "title": "Client (Patient) Dashboard",
+              "body": "Dashboard: Upcoming appointments, reminders, and quick actions.\n\nBook Appointment: Select service, provider, date, and time.\n\nMy Appointments: View upcoming, completed, cancelled, and missed appointments.\n\nAppointment Details: View location, provider, date, time, and instructions.\n\nReschedule or Cancel: Modify appointments according to policy.\n\nNotifications: Booking confirmations, reminders, and schedule updates.\n\nAppointment History: Review previous visits and statuses.\n\nProfile and Settings: Manage personal details and communication preferences.",
+              "image": null
+            },
+            {
+              "title": "Guardian Dashboard",
+              "body": "Guardian Dashboard: Overview of linked patients and their upcoming appointments.\n\nLinked Patient Profiles: View and switch between authorized dependants.\n\nBook Appointment: Schedule appointments for a selected patient.\n\nManage Appointments: View, reschedule, or cancel permitted bookings.\n\nPatient Appointment Details: Access relevant visit information.\n\nNotifications: Receive reminders and updates for linked patients.\n\nPatient History: Review accessible appointment records.\n\nGuardian Profile: Manage personal information and authorization settings.",
+              "image": null
+            },
+            {
+              "title": "Agency Dashboard",
+              "body": "Agency Dashboard: Appointment summaries, pending tasks, and upcoming visits.\n\nPatient Directory: Search and view patients within the agency's scope.\n\nAppointment Management: Create, view, update, or cancel permitted appointments.\n\nScheduling Calendar: View appointments by date, patient, or provider.\n\nAppointment Status Tracking: Monitor pending, confirmed, completed, and missed visits.\n\nCare Coordination: Manage appointment-related communication and follow-up tasks.\n\nReports: Review agency appointment activity and operational trends.\n\nStaff and Profile Settings: Manage permitted staff details and agency information.",
+              "image": null
+            }
+          ],
+          "images": [
+            {
+              "src": "assets/case-layout/art-492-9042.svg",
+              "alt": "Client Dashboard - Dashboard"
+            },
+            {
+              "src": "assets/case-layout/art-492-14566.svg",
+              "alt": "Network Super user - guadian"
+            },
+            {
+              "src": "assets/case-layout/art-492-16391.svg",
+              "alt": "Agency Dashboard - Care Manager"
+            },
+            {
+              "src": "assets/case-layout/art-492-19387.svg",
+              "alt": "Network Super user - All Issues Page"
+            },
+            {
+              "src": "assets/case-layout/156e4d0d4b9695652241c97f3fbac78626c285c2.png",
+              "alt": "image 173"
+            },
+            {
+              "src": "assets/case-layout/art-492-21413.svg",
+              "alt": "Desktop Zoom/Light"
+            },
+            {
+              "src": "assets/case-layout/art-493-26967.svg",
+              "alt": "website"
+            }
+          ],
+          "palette": [],
+          "typography": [],
+          "buttons": []
         }
-      ]
+      ],
+      "template": "figma-shared",
+      "accent": "#EDF5FF"
     }
   ]
 }
