@@ -1,0 +1,761 @@
+{
+  "version": 1,
+  "images": {
+    "assets/case-layout/03ad05766915bc9b161933024e758af081dac228.png": "assets/case-web/03ad05766915bc9b161933024e758af081dac228-1440.webp",
+    "assets/case-layout/1984f6b324a69a9295796d635c7fbf49b6ff5a43.png": "assets/case-web/1984f6b324a69a9295796d635c7fbf49b6ff5a43-1440.webp",
+    "assets/case-layout/43fe32ecd753cc09afd1176d4929928140a8b9a3.png": "assets/case-web/43fe32ecd753cc09afd1176d4929928140a8b9a3.webp",
+    "assets/case-layout/450b55543d091f924bc8675e4a0fdec69575bc95.jpg": "assets/case-web/450b55543d091f924bc8675e4a0fdec69575bc95.webp",
+    "assets/case-layout/4b8becc2391c9a45946abe7469f6abdc6b26adff.png": "assets/case-web/4b8becc2391c9a45946abe7469f6abdc6b26adff-1440.webp",
+    "assets/case-layout/533e6fcd467b24ce5e732ef51d41ba18f1fa77cc.png": "assets/case-web/533e6fcd467b24ce5e732ef51d41ba18f1fa77cc-729.webp",
+    "assets/case-layout/5f689eb2416489115d0c8652a6f178cb375845d0.png": "assets/case-web/5f689eb2416489115d0c8652a6f178cb375845d0-1440.webp",
+    "assets/case-layout/788eb0da26b88ddc78d50e5ae3bb43259668644e.png": "assets/case-web/788eb0da26b88ddc78d50e5ae3bb43259668644e-1440.webp",
+    "assets/case-layout/9d7187feeac604cb775db171fa97cdaf6766b4b6.png": "assets/case-web/9d7187feeac604cb775db171fa97cdaf6766b4b6-1440.webp",
+    "assets/case-layout/9fe7c43879d67baf0ce1aabe05fd8d1eabff2cd6.png": "assets/case-web/9fe7c43879d67baf0ce1aabe05fd8d1eabff2cd6-1440.webp",
+    "assets/case-layout/a2526eee0463c14d3e5afbac5286109b5a7f661f.png": "assets/case-web/a2526eee0463c14d3e5afbac5286109b5a7f661f-1440.webp",
+    "assets/case-layout/a7e000f3600199c1fd60cdb8144e867096e673a4.png": "assets/case-web/a7e000f3600199c1fd60cdb8144e867096e673a4.webp",
+    "assets/case-layout/aba3c290ea8a42f4349c06a516b0cc3cdc5c00d9.png": "assets/case-web/aba3c290ea8a42f4349c06a516b0cc3cdc5c00d9-1440.webp",
+    "assets/case-layout/acc33420da567f8acc37d03001e04235e431a674.png": "assets/case-web/acc33420da567f8acc37d03001e04235e431a674-1440.webp",
+    "assets/case-layout/afbf4f0feca25770f6af9507f0f27f3fa5e52555.png": "assets/case-web/afbf4f0feca25770f6af9507f0f27f3fa5e52555-1440.webp",
+    "assets/case-layout/art-455-31565.svg": "assets/case-web/art-455-31565-1440.webp",
+    "assets/case-layout/art-455-31708.svg": "assets/case-web/art-455-31708-1440.webp",
+    "assets/case-layout/art-455-32405.svg": "assets/case-web/art-455-32405-1440.webp",
+    "assets/case-layout/art-455-33090.svg": "assets/case-web/art-455-33090-1440.webp",
+    "assets/case-layout/art-455-33712.svg": "assets/case-web/art-455-33712.svg",
+    "assets/case-layout/art-455-34105.svg": "assets/case-web/art-455-34105-1440.webp",
+    "assets/case-layout/art-455-34727.svg": "assets/case-web/art-455-34727.svg",
+    "assets/case-layout/art-455-35054.svg": "assets/case-web/art-455-35054-1440.webp",
+    "assets/case-layout/art-455-37227.svg": "assets/case-web/art-455-37227-1440.webp",
+    "assets/case-layout/art-483-29538.svg": "assets/case-web/art-483-29538-1440.webp",
+    "assets/case-layout/art-492-14566.svg": "assets/case-web/art-492-14566-1440.webp",
+    "assets/case-layout/art-492-16391.svg": "assets/case-web/art-492-16391-1440.webp",
+    "assets/case-layout/art-492-19387.svg": "assets/case-web/art-492-19387-1440.webp",
+    "assets/case-layout/art-492-21413.svg": "assets/case-web/art-492-21413-1440.webp",
+    "assets/case-layout/art-492-9042.svg": "assets/case-web/art-492-9042-1440.webp",
+    "assets/case-layout/art-493-26967.svg": "assets/case-web/art-493-26967-1440.webp",
+    "assets/case-layout/art-493-30246.svg": "assets/case-web/art-493-30246-1440.webp",
+    "assets/case-layout/b6f13ad4c9555ee2c128c998f3c5f452f3bc2e68.png": "assets/case-web/b6f13ad4c9555ee2c128c998f3c5f452f3bc2e68.webp",
+    "assets/case-layout/b74add423d2eafc3587ceca4f8e4670ee86e5dcc.png": "assets/case-web/b74add423d2eafc3587ceca4f8e4670ee86e5dcc.webp",
+    "assets/case-layout/c93381f1f3bcbcee1f2315a2e7651aa7431cc5be.png": "assets/case-web/c93381f1f3bcbcee1f2315a2e7651aa7431cc5be-1440.webp",
+    "assets/case-layout/c9f29663e0d9e8726db659e2fdc4f151f3094f52.png": "assets/case-web/c9f29663e0d9e8726db659e2fdc4f151f3094f52-1440.webp",
+    "assets/case-layout/f96d9eca223f5eab33c8b7e84c83684b24cc836f.png": "assets/case-web/f96d9eca223f5eab33c8b7e84c83684b24cc836f.webp",
+    "assets/case-studies/03ad05766915bc9b161933024e758af081dac228.png": "assets/case-web/03ad05766915bc9b161933024e758af081dac228-1440.webp",
+    "assets/case-studies/156e4d0d4b9695652241c97f3fbac78626c285c2.png": "assets/case-web/156e4d0d4b9695652241c97f3fbac78626c285c2-1440.webp",
+    "assets/case-studies/1984f6b324a69a9295796d635c7fbf49b6ff5a43.png": "assets/case-web/1984f6b324a69a9295796d635c7fbf49b6ff5a43-1440.webp",
+    "assets/case-studies/4b8becc2391c9a45946abe7469f6abdc6b26adff.png": "assets/case-web/4b8becc2391c9a45946abe7469f6abdc6b26adff-1440.webp",
+    "assets/case-studies/788eb0da26b88ddc78d50e5ae3bb43259668644e.png": "assets/case-web/788eb0da26b88ddc78d50e5ae3bb43259668644e-1440.webp",
+    "assets/case-studies/9d7187feeac604cb775db171fa97cdaf6766b4b6.png": "assets/case-web/9d7187feeac604cb775db171fa97cdaf6766b4b6-1440.webp",
+    "assets/case-studies/9fe7c43879d67baf0ce1aabe05fd8d1eabff2cd6.png": "assets/case-web/9fe7c43879d67baf0ce1aabe05fd8d1eabff2cd6-1440.webp",
+    "assets/case-studies/a2526eee0463c14d3e5afbac5286109b5a7f661f.png": "assets/case-web/a2526eee0463c14d3e5afbac5286109b5a7f661f-1440.webp",
+    "assets/case-studies/aba3c290ea8a42f4349c06a516b0cc3cdc5c00d9.png": "assets/case-web/aba3c290ea8a42f4349c06a516b0cc3cdc5c00d9-1440.webp",
+    "assets/case-studies/c9f29663e0d9e8726db659e2fdc4f151f3094f52.png": "assets/case-web/c9f29663e0d9e8726db659e2fdc4f151f3094f52-1440.webp",
+    "assets/case-layout/art-455-43958.svg": "assets/case-web/art-455-43958-1440.webp",
+    "assets/case-layout/art-455-44274.svg": "assets/case-web/art-455-44274-1440.webp",
+    "assets/case-layout/156e4d0d4b9695652241c97f3fbac78626c285c2.png": "assets/case-web/156e4d0d4b9695652241c97f3fbac78626c285c2-1440.webp"
+  },
+  "responsive": {
+    "assets/case-layout/art-455-43958.svg": [
+      {
+        "src": "assets/case-web/art-455-43958-720.webp",
+        "width": 720,
+        "height": 242
+      },
+      {
+        "src": "assets/case-web/art-455-43958-1440.webp",
+        "width": 1440,
+        "height": 484
+      },
+      {
+        "src": "assets/case-web/art-455-43958-2529.webp",
+        "width": 2529,
+        "height": 851
+      }
+    ],
+    "assets/case-layout/art-455-44274.svg": [
+      {
+        "src": "assets/case-web/art-455-44274-720.webp",
+        "width": 720,
+        "height": 203
+      },
+      {
+        "src": "assets/case-web/art-455-44274-1440.webp",
+        "width": 1440,
+        "height": 405
+      },
+      {
+        "src": "assets/case-web/art-455-44274-1508.webp",
+        "width": 1508,
+        "height": 424
+      }
+    ],
+    "assets/case-layout/art-455-31565.svg": [
+      {
+        "src": "assets/case-web/art-455-31565-720.webp",
+        "width": 720,
+        "height": 1059
+      },
+      {
+        "src": "assets/case-web/art-455-31565-1440.webp",
+        "width": 1440,
+        "height": 2119
+      },
+      {
+        "src": "assets/case-web/art-455-31565-1932.webp",
+        "width": 1932,
+        "height": 2843
+      }
+    ],
+    "assets/case-layout/art-455-31708.svg": [
+      {
+        "src": "assets/case-web/art-455-31708-720.webp",
+        "width": 720,
+        "height": 2057
+      },
+      {
+        "src": "assets/case-web/art-455-31708-1440.webp",
+        "width": 1440,
+        "height": 4113
+      },
+      {
+        "src": "assets/case-web/art-455-31708-2396.webp",
+        "width": 2396,
+        "height": 6844
+      }
+    ],
+    "assets/case-layout/art-455-32405.svg": [
+      {
+        "src": "assets/case-web/art-455-32405-720.webp",
+        "width": 720,
+        "height": 1453
+      },
+      {
+        "src": "assets/case-web/art-455-32405-1440.webp",
+        "width": 1440,
+        "height": 2906
+      },
+      {
+        "src": "assets/case-web/art-455-32405-2396.webp",
+        "width": 2396,
+        "height": 4836
+      }
+    ],
+    "assets/case-layout/art-455-33090.svg": [
+      {
+        "src": "assets/case-web/art-455-33090-720.webp",
+        "width": 720,
+        "height": 480
+      },
+      {
+        "src": "assets/case-web/art-455-33090-1440.webp",
+        "width": 1440,
+        "height": 960
+      },
+      {
+        "src": "assets/case-web/art-455-33090-2036.webp",
+        "width": 2036,
+        "height": 1357
+      }
+    ],
+    "assets/case-layout/art-455-34105.svg": [
+      {
+        "src": "assets/case-web/art-455-34105-720.webp",
+        "width": 720,
+        "height": 480
+      },
+      {
+        "src": "assets/case-web/art-455-34105-1440.webp",
+        "width": 1440,
+        "height": 960
+      },
+      {
+        "src": "assets/case-web/art-455-34105-2065.webp",
+        "width": 2065,
+        "height": 1377
+      }
+    ],
+    "assets/case-layout/art-455-35054.svg": [
+      {
+        "src": "assets/case-web/art-455-35054-720.webp",
+        "width": 720,
+        "height": 2198
+      },
+      {
+        "src": "assets/case-web/art-455-35054-1440.webp",
+        "width": 1440,
+        "height": 4395
+      },
+      {
+        "src": "assets/case-web/art-455-35054-2866.webp",
+        "width": 2866,
+        "height": 8748
+      }
+    ],
+    "assets/case-layout/art-455-37227.svg": [
+      {
+        "src": "assets/case-web/art-455-37227-720.webp",
+        "width": 720,
+        "height": 1862
+      },
+      {
+        "src": "assets/case-web/art-455-37227-1440.webp",
+        "width": 1440,
+        "height": 3724
+      },
+      {
+        "src": "assets/case-web/art-455-37227-2880.webp",
+        "width": 2880,
+        "height": 7448
+      }
+    ],
+    "assets/case-layout/art-483-29538.svg": [
+      {
+        "src": "assets/case-web/art-483-29538-720.webp",
+        "width": 720,
+        "height": 505
+      },
+      {
+        "src": "assets/case-web/art-483-29538-1440.webp",
+        "width": 1440,
+        "height": 1009
+      },
+      {
+        "src": "assets/case-web/art-483-29538-2516.webp",
+        "width": 2516,
+        "height": 1764
+      }
+    ],
+    "assets/case-layout/art-493-30246.svg": [
+      {
+        "src": "assets/case-web/art-493-30246-720.webp",
+        "width": 720,
+        "height": 505
+      },
+      {
+        "src": "assets/case-web/art-493-30246-1440.webp",
+        "width": 1440,
+        "height": 1009
+      },
+      {
+        "src": "assets/case-web/art-493-30246-2516.webp",
+        "width": 2516,
+        "height": 1764
+      }
+    ],
+    "assets/case-layout/art-492-9042.svg": [
+      {
+        "src": "assets/case-web/art-492-9042-720.webp",
+        "width": 720,
+        "height": 529
+      },
+      {
+        "src": "assets/case-web/art-492-9042-1440.webp",
+        "width": 1440,
+        "height": 1057
+      },
+      {
+        "src": "assets/case-web/art-492-9042-2550.webp",
+        "width": 2550,
+        "height": 1872
+      }
+    ],
+    "assets/case-layout/art-492-14566.svg": [
+      {
+        "src": "assets/case-web/art-492-14566-720.webp",
+        "width": 720,
+        "height": 512
+      },
+      {
+        "src": "assets/case-web/art-492-14566-1440.webp",
+        "width": 1440,
+        "height": 1024
+      },
+      {
+        "src": "assets/case-web/art-492-14566-2566.webp",
+        "width": 2566,
+        "height": 1825
+      }
+    ],
+    "assets/case-layout/art-492-16391.svg": [
+      {
+        "src": "assets/case-web/art-492-16391-720.webp",
+        "width": 720,
+        "height": 512
+      },
+      {
+        "src": "assets/case-web/art-492-16391-1440.webp",
+        "width": 1440,
+        "height": 1024
+      },
+      {
+        "src": "assets/case-web/art-492-16391-2568.webp",
+        "width": 2568,
+        "height": 1826
+      }
+    ],
+    "assets/case-layout/art-492-19387.svg": [
+      {
+        "src": "assets/case-web/art-492-19387-720.webp",
+        "width": 720,
+        "height": 512
+      },
+      {
+        "src": "assets/case-web/art-492-19387-1440.webp",
+        "width": 1440,
+        "height": 1024
+      },
+      {
+        "src": "assets/case-web/art-492-19387-2578.webp",
+        "width": 2578,
+        "height": 1833
+      }
+    ],
+    "assets/case-layout/art-492-21413.svg": [
+      {
+        "src": "assets/case-web/art-492-21413-720.webp",
+        "width": 720,
+        "height": 405
+      },
+      {
+        "src": "assets/case-web/art-492-21413-1440.webp",
+        "width": 1440,
+        "height": 810
+      },
+      {
+        "src": "assets/case-web/art-492-21413-2580.webp",
+        "width": 2580,
+        "height": 1451
+      }
+    ],
+    "assets/case-layout/art-493-26967.svg": [
+      {
+        "src": "assets/case-web/art-493-26967-720.webp",
+        "width": 720,
+        "height": 3579
+      },
+      {
+        "src": "assets/case-web/art-493-26967-1440.webp",
+        "width": 1440,
+        "height": 7158
+      },
+      {
+        "src": "assets/case-web/art-493-26967-2880.webp",
+        "width": 2880,
+        "height": 14316
+      }
+    ],
+    "assets/case-layout/a2526eee0463c14d3e5afbac5286109b5a7f661f.png": [
+      {
+        "src": "assets/case-web/a2526eee0463c14d3e5afbac5286109b5a7f661f-720.webp",
+        "width": 720,
+        "height": 494
+      },
+      {
+        "src": "assets/case-web/a2526eee0463c14d3e5afbac5286109b5a7f661f-1440.webp",
+        "width": 1440,
+        "height": 988
+      },
+      {
+        "src": "assets/case-web/a2526eee0463c14d3e5afbac5286109b5a7f661f-1514.webp",
+        "width": 1514,
+        "height": 1039
+      }
+    ],
+    "assets/case-layout/03ad05766915bc9b161933024e758af081dac228.png": [
+      {
+        "src": "assets/case-web/03ad05766915bc9b161933024e758af081dac228-720.webp",
+        "width": 720,
+        "height": 480
+      },
+      {
+        "src": "assets/case-web/03ad05766915bc9b161933024e758af081dac228-1440.webp",
+        "width": 1440,
+        "height": 960
+      },
+      {
+        "src": "assets/case-web/03ad05766915bc9b161933024e758af081dac228-1536.webp",
+        "width": 1536,
+        "height": 1024
+      }
+    ],
+    "assets/case-layout/1984f6b324a69a9295796d635c7fbf49b6ff5a43.png": [
+      {
+        "src": "assets/case-web/1984f6b324a69a9295796d635c7fbf49b6ff5a43-720.webp",
+        "width": 720,
+        "height": 511
+      },
+      {
+        "src": "assets/case-web/1984f6b324a69a9295796d635c7fbf49b6ff5a43-1440.webp",
+        "width": 1440,
+        "height": 1023
+      },
+      {
+        "src": "assets/case-web/1984f6b324a69a9295796d635c7fbf49b6ff5a43-1488.webp",
+        "width": 1488,
+        "height": 1057
+      }
+    ],
+    "assets/case-layout/788eb0da26b88ddc78d50e5ae3bb43259668644e.png": [
+      {
+        "src": "assets/case-web/788eb0da26b88ddc78d50e5ae3bb43259668644e-720.webp",
+        "width": 720,
+        "height": 480
+      },
+      {
+        "src": "assets/case-web/788eb0da26b88ddc78d50e5ae3bb43259668644e-1440.webp",
+        "width": 1440,
+        "height": 960
+      },
+      {
+        "src": "assets/case-web/788eb0da26b88ddc78d50e5ae3bb43259668644e-1536.webp",
+        "width": 1536,
+        "height": 1024
+      }
+    ],
+    "assets/case-layout/9fe7c43879d67baf0ce1aabe05fd8d1eabff2cd6.png": [
+      {
+        "src": "assets/case-web/9fe7c43879d67baf0ce1aabe05fd8d1eabff2cd6-720.webp",
+        "width": 720,
+        "height": 480
+      },
+      {
+        "src": "assets/case-web/9fe7c43879d67baf0ce1aabe05fd8d1eabff2cd6-1440.webp",
+        "width": 1440,
+        "height": 960
+      },
+      {
+        "src": "assets/case-web/9fe7c43879d67baf0ce1aabe05fd8d1eabff2cd6-1536.webp",
+        "width": 1536,
+        "height": 1024
+      }
+    ],
+    "assets/case-layout/4b8becc2391c9a45946abe7469f6abdc6b26adff.png": [
+      {
+        "src": "assets/case-web/4b8becc2391c9a45946abe7469f6abdc6b26adff-720.webp",
+        "width": 720,
+        "height": 511
+      },
+      {
+        "src": "assets/case-web/4b8becc2391c9a45946abe7469f6abdc6b26adff-1440.webp",
+        "width": 1440,
+        "height": 1023
+      },
+      {
+        "src": "assets/case-web/4b8becc2391c9a45946abe7469f6abdc6b26adff-1488.webp",
+        "width": 1488,
+        "height": 1057
+      }
+    ],
+    "assets/case-layout/9d7187feeac604cb775db171fa97cdaf6766b4b6.png": [
+      {
+        "src": "assets/case-web/9d7187feeac604cb775db171fa97cdaf6766b4b6-720.webp",
+        "width": 720,
+        "height": 480
+      },
+      {
+        "src": "assets/case-web/9d7187feeac604cb775db171fa97cdaf6766b4b6-1440.webp",
+        "width": 1440,
+        "height": 960
+      },
+      {
+        "src": "assets/case-web/9d7187feeac604cb775db171fa97cdaf6766b4b6-1536.webp",
+        "width": 1536,
+        "height": 1024
+      }
+    ],
+    "assets/case-layout/533e6fcd467b24ce5e732ef51d41ba18f1fa77cc.png": [
+      {
+        "src": "assets/case-web/533e6fcd467b24ce5e732ef51d41ba18f1fa77cc-720.webp",
+        "width": 720,
+        "height": 1356
+      },
+      {
+        "src": "assets/case-web/533e6fcd467b24ce5e732ef51d41ba18f1fa77cc-729.webp",
+        "width": 729,
+        "height": 1373
+      }
+    ],
+    "assets/case-layout/c9f29663e0d9e8726db659e2fdc4f151f3094f52.png": [
+      {
+        "src": "assets/case-web/c9f29663e0d9e8726db659e2fdc4f151f3094f52-720.webp",
+        "width": 720,
+        "height": 480
+      },
+      {
+        "src": "assets/case-web/c9f29663e0d9e8726db659e2fdc4f151f3094f52-1440.webp",
+        "width": 1440,
+        "height": 960
+      },
+      {
+        "src": "assets/case-web/c9f29663e0d9e8726db659e2fdc4f151f3094f52-1536.webp",
+        "width": 1536,
+        "height": 1024
+      }
+    ],
+    "assets/case-layout/c93381f1f3bcbcee1f2315a2e7651aa7431cc5be.png": [
+      {
+        "src": "assets/case-web/c93381f1f3bcbcee1f2315a2e7651aa7431cc5be-720.webp",
+        "width": 720,
+        "height": 361
+      },
+      {
+        "src": "assets/case-web/c93381f1f3bcbcee1f2315a2e7651aa7431cc5be-1440.webp",
+        "width": 1440,
+        "height": 722
+      },
+      {
+        "src": "assets/case-web/c93381f1f3bcbcee1f2315a2e7651aa7431cc5be-1772.webp",
+        "width": 1772,
+        "height": 888
+      }
+    ],
+    "assets/case-layout/5f689eb2416489115d0c8652a6f178cb375845d0.png": [
+      {
+        "src": "assets/case-web/5f689eb2416489115d0c8652a6f178cb375845d0-720.webp",
+        "width": 720,
+        "height": 1116
+      },
+      {
+        "src": "assets/case-web/5f689eb2416489115d0c8652a6f178cb375845d0-1440.webp",
+        "width": 1440,
+        "height": 2233
+      }
+    ],
+    "assets/case-layout/afbf4f0feca25770f6af9507f0f27f3fa5e52555.png": [
+      {
+        "src": "assets/case-web/afbf4f0feca25770f6af9507f0f27f3fa5e52555-720.webp",
+        "width": 720,
+        "height": 241
+      },
+      {
+        "src": "assets/case-web/afbf4f0feca25770f6af9507f0f27f3fa5e52555-1440.webp",
+        "width": 1440,
+        "height": 481
+      },
+      {
+        "src": "assets/case-web/afbf4f0feca25770f6af9507f0f27f3fa5e52555-2170.webp",
+        "width": 2170,
+        "height": 725
+      }
+    ],
+    "assets/case-layout/aba3c290ea8a42f4349c06a516b0cc3cdc5c00d9.png": [
+      {
+        "src": "assets/case-web/aba3c290ea8a42f4349c06a516b0cc3cdc5c00d9-720.webp",
+        "width": 720,
+        "height": 480
+      },
+      {
+        "src": "assets/case-web/aba3c290ea8a42f4349c06a516b0cc3cdc5c00d9-1440.webp",
+        "width": 1440,
+        "height": 960
+      },
+      {
+        "src": "assets/case-web/aba3c290ea8a42f4349c06a516b0cc3cdc5c00d9-1536.webp",
+        "width": 1536,
+        "height": 1024
+      }
+    ],
+    "assets/case-layout/acc33420da567f8acc37d03001e04235e431a674.png": [
+      {
+        "src": "assets/case-web/acc33420da567f8acc37d03001e04235e431a674-720.webp",
+        "width": 720,
+        "height": 536
+      },
+      {
+        "src": "assets/case-web/acc33420da567f8acc37d03001e04235e431a674-1440.webp",
+        "width": 1440,
+        "height": 1072
+      },
+      {
+        "src": "assets/case-web/acc33420da567f8acc37d03001e04235e431a674-1453.webp",
+        "width": 1453,
+        "height": 1082
+      }
+    ],
+    "assets/case-layout/156e4d0d4b9695652241c97f3fbac78626c285c2.png": [
+      {
+        "src": "assets/case-web/156e4d0d4b9695652241c97f3fbac78626c285c2-720.webp",
+        "width": 720,
+        "height": 512
+      },
+      {
+        "src": "assets/case-web/156e4d0d4b9695652241c97f3fbac78626c285c2-1440.webp",
+        "width": 1440,
+        "height": 1025
+      },
+      {
+        "src": "assets/case-web/156e4d0d4b9695652241c97f3fbac78626c285c2-2604.webp",
+        "width": 2604,
+        "height": 1854
+      }
+    ],
+    "assets/case-studies/a2526eee0463c14d3e5afbac5286109b5a7f661f.png": [
+      {
+        "src": "assets/case-web/a2526eee0463c14d3e5afbac5286109b5a7f661f-720.webp",
+        "width": 720,
+        "height": 494
+      },
+      {
+        "src": "assets/case-web/a2526eee0463c14d3e5afbac5286109b5a7f661f-1440.webp",
+        "width": 1440,
+        "height": 988
+      },
+      {
+        "src": "assets/case-web/a2526eee0463c14d3e5afbac5286109b5a7f661f-1514.webp",
+        "width": 1514,
+        "height": 1039
+      }
+    ],
+    "assets/case-studies/03ad05766915bc9b161933024e758af081dac228.png": [
+      {
+        "src": "assets/case-web/03ad05766915bc9b161933024e758af081dac228-720.webp",
+        "width": 720,
+        "height": 480
+      },
+      {
+        "src": "assets/case-web/03ad05766915bc9b161933024e758af081dac228-1440.webp",
+        "width": 1440,
+        "height": 960
+      },
+      {
+        "src": "assets/case-web/03ad05766915bc9b161933024e758af081dac228-1536.webp",
+        "width": 1536,
+        "height": 1024
+      }
+    ],
+    "assets/case-studies/1984f6b324a69a9295796d635c7fbf49b6ff5a43.png": [
+      {
+        "src": "assets/case-web/1984f6b324a69a9295796d635c7fbf49b6ff5a43-720.webp",
+        "width": 720,
+        "height": 511
+      },
+      {
+        "src": "assets/case-web/1984f6b324a69a9295796d635c7fbf49b6ff5a43-1440.webp",
+        "width": 1440,
+        "height": 1023
+      },
+      {
+        "src": "assets/case-web/1984f6b324a69a9295796d635c7fbf49b6ff5a43-1488.webp",
+        "width": 1488,
+        "height": 1057
+      }
+    ],
+    "assets/case-studies/788eb0da26b88ddc78d50e5ae3bb43259668644e.png": [
+      {
+        "src": "assets/case-web/788eb0da26b88ddc78d50e5ae3bb43259668644e-720.webp",
+        "width": 720,
+        "height": 480
+      },
+      {
+        "src": "assets/case-web/788eb0da26b88ddc78d50e5ae3bb43259668644e-1440.webp",
+        "width": 1440,
+        "height": 960
+      },
+      {
+        "src": "assets/case-web/788eb0da26b88ddc78d50e5ae3bb43259668644e-1536.webp",
+        "width": 1536,
+        "height": 1024
+      }
+    ],
+    "assets/case-studies/9fe7c43879d67baf0ce1aabe05fd8d1eabff2cd6.png": [
+      {
+        "src": "assets/case-web/9fe7c43879d67baf0ce1aabe05fd8d1eabff2cd6-720.webp",
+        "width": 720,
+        "height": 480
+      },
+      {
+        "src": "assets/case-web/9fe7c43879d67baf0ce1aabe05fd8d1eabff2cd6-1440.webp",
+        "width": 1440,
+        "height": 960
+      },
+      {
+        "src": "assets/case-web/9fe7c43879d67baf0ce1aabe05fd8d1eabff2cd6-1536.webp",
+        "width": 1536,
+        "height": 1024
+      }
+    ],
+    "assets/case-studies/4b8becc2391c9a45946abe7469f6abdc6b26adff.png": [
+      {
+        "src": "assets/case-web/4b8becc2391c9a45946abe7469f6abdc6b26adff-720.webp",
+        "width": 720,
+        "height": 511
+      },
+      {
+        "src": "assets/case-web/4b8becc2391c9a45946abe7469f6abdc6b26adff-1440.webp",
+        "width": 1440,
+        "height": 1023
+      },
+      {
+        "src": "assets/case-web/4b8becc2391c9a45946abe7469f6abdc6b26adff-1488.webp",
+        "width": 1488,
+        "height": 1057
+      }
+    ],
+    "assets/case-studies/9d7187feeac604cb775db171fa97cdaf6766b4b6.png": [
+      {
+        "src": "assets/case-web/9d7187feeac604cb775db171fa97cdaf6766b4b6-720.webp",
+        "width": 720,
+        "height": 480
+      },
+      {
+        "src": "assets/case-web/9d7187feeac604cb775db171fa97cdaf6766b4b6-1440.webp",
+        "width": 1440,
+        "height": 960
+      },
+      {
+        "src": "assets/case-web/9d7187feeac604cb775db171fa97cdaf6766b4b6-1536.webp",
+        "width": 1536,
+        "height": 1024
+      }
+    ],
+    "assets/case-studies/c9f29663e0d9e8726db659e2fdc4f151f3094f52.png": [
+      {
+        "src": "assets/case-web/c9f29663e0d9e8726db659e2fdc4f151f3094f52-720.webp",
+        "width": 720,
+        "height": 480
+      },
+      {
+        "src": "assets/case-web/c9f29663e0d9e8726db659e2fdc4f151f3094f52-1440.webp",
+        "width": 1440,
+        "height": 960
+      },
+      {
+        "src": "assets/case-web/c9f29663e0d9e8726db659e2fdc4f151f3094f52-1536.webp",
+        "width": 1536,
+        "height": 1024
+      }
+    ],
+    "assets/case-studies/aba3c290ea8a42f4349c06a516b0cc3cdc5c00d9.png": [
+      {
+        "src": "assets/case-web/aba3c290ea8a42f4349c06a516b0cc3cdc5c00d9-720.webp",
+        "width": 720,
+        "height": 480
+      },
+      {
+        "src": "assets/case-web/aba3c290ea8a42f4349c06a516b0cc3cdc5c00d9-1440.webp",
+        "width": 1440,
+        "height": 960
+      },
+      {
+        "src": "assets/case-web/aba3c290ea8a42f4349c06a516b0cc3cdc5c00d9-1536.webp",
+        "width": 1536,
+        "height": 1024
+      }
+    ],
+    "assets/case-studies/156e4d0d4b9695652241c97f3fbac78626c285c2.png": [
+      {
+        "src": "assets/case-web/156e4d0d4b9695652241c97f3fbac78626c285c2-720.webp",
+        "width": 720,
+        "height": 512
+      },
+      {
+        "src": "assets/case-web/156e4d0d4b9695652241c97f3fbac78626c285c2-1440.webp",
+        "width": 1440,
+        "height": 1025
+      },
+      {
+        "src": "assets/case-web/156e4d0d4b9695652241c97f3fbac78626c285c2-2880.webp",
+        "width": 2880,
+        "height": 2050
+      }
+    ]
+  }
+}

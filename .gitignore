@@ -1,0 +1,13 @@
+/*
+!/.gitignore
+!/public/
+/public/**/*.source.css
+/public/**/.env*
+/public/**/*.md
+/public/**/*.pem
+/public/**/*.key
+/public/**/*.pfx
+/public/**/*.fig
+/public/**/*.zip
+/public/**/.DS_Store
+/public/**/Thumbs.db
