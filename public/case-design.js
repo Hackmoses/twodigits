@@ -50,7 +50,25 @@
    }
    e.replaceChildren(label,title,grid);
   }
+  if(n.name==='07-Design-System')foundationSection(e,n,overrides);
   e._layout=n;return e;
+ }
+ function foundationSection(element,source,overrides){
+  element.classList.add('case-foundations');const nodes=[];function walk(n){nodes.push(n);(n.kids||[]).forEach(walk);}walk(source);
+  const take=n=>element.querySelector(`[data-source-node="${n.id}"]`),text=n=>overrides.text?.[n.id]??n.text;
+  const title=nodes.find(n=>n.text&&n.size>=28),intro=nodes.find(n=>n.text&&n.text.length>65&&!n.text.startsWith('Lorem'));
+  const heading=document.createElement('div');heading.className='foundation-heading';if(title)heading.append(take(title));if(intro)heading.append(take(intro));
+  const palettes=document.createElement('div');palettes.className='foundation-palettes';const sections=new Map();let group='Brand palette';
+  for(const n of nodes){
+   if(n.text&&['Colors','ColorS','Color Space','Primary,','Neutral, Gray','Yellow','Red','Green'].includes(n.text.trim()))group=n.text.trim()==='ColorS'?'Brand palette':n.text.trim();
+   const sw=(n.kids||[]).find(c=>c.bg&&!c.kids?.length&&!c.text&&c.h>=60&&c.h<=110);if(!sw)continue;
+   const texts=[];function leaves(x){if(x.text)texts.push(x);(x.kids||[]).forEach(leaves);}leaves(n);const hex=texts.find(t=>/#?[A-Fa-f0-9]{6}\s*$/.test(text(t)));if(!hex)continue;
+   let section=sections.get(group);if(!section){section=document.createElement('section');section.className='foundation-palette';const h=document.createElement('h3');h.textContent=group;const grid=document.createElement('div');grid.className='foundation-swatches';section.append(h,grid);sections.set(group,section);palettes.append(section);}
+   const card=document.createElement('div');card.className='foundation-swatch';const chip=document.createElement('div');chip.className='foundation-chip';const color=text(hex).match(/#?([A-Fa-f0-9]{6})\s*$/);chip.style.background=color?'#'+color[1]:sw.bg;chip.setAttribute('aria-hidden','true');card.append(chip);for(const t of texts){const original=take(t);if(original)card.append(original);}section.lastElementChild.append(card);
+  }
+  const aside=document.createElement('div');aside.className='foundation-aside';const type=document.createElement('section');type.className='foundation-type';const typeHeading=document.createElement('h3');typeHeading.textContent='Typography';type.append(typeHeading);for(const n of nodes.filter(n=>n.text&&/^Inter[ —]/.test(n.text))){const original=take(n);original.classList.add(n.size>=28?'foundation-type-display':n.size>=14?'foundation-type-body':'foundation-type-caption');type.append(original);}if(type.children.length>1)aside.append(type);
+  const examples=nodes.filter(n=>n.text&&['Primary CTA','Secondary'].includes(n.text.trim())&&n.size>=12);if(examples.length){const panel=document.createElement('section');panel.className='foundation-components';const h=document.createElement('h3');h.textContent='Buttons';panel.append(h);const row=document.createElement('div');row.className='foundation-button-row';const primary=palettes.querySelector('.foundation-chip')?.style.background||'#05191b';examples.forEach((n,i)=>{const sample=document.createElement('div');sample.className='foundation-button '+(i?'is-secondary':'is-primary');sample.style.setProperty('--sample-primary',primary);sample.append(take(n));row.append(sample);});panel.append(row);aside.append(panel);}
+  const body=document.createElement('div');body.className='foundation-layout';body.append(palettes);if(aside.children.length)body.append(aside);else body.classList.add('palette-only');element.replaceChildren(heading,body);
  }
  function personaParts(value){const match=value.match(/^\s*Goal:\s*([\s\S]*?)\n\s*Pain Points:\s*([\s\S]*?)\n\s*Needs:\s*([\s\S]*)$/i);return match?{goal:match[1].trim(),pain:match[2].trim(),needs:match[3].trim()}:{goal:value,pain:'',needs:''};}
  function reflow(e){const n=e._layout;if(!n)return 0;const unit=Math.min(1,innerWidth/1440);if(innerWidth<=1024){e.style.height='auto';return 0;}if(e.classList.contains('case-personas')){e.style.height='auto';return e.getBoundingClientRect().height/unit;}if(n.text)return Math.max(n.h,e.getBoundingClientRect().height/unit);
