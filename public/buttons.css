@@ -1,0 +1,8 @@
+/* Shared action sizing; loaded after page-specific design styles. */
+:root{--action-font-size:14px;--action-line-height:20px;--action-padding-y:10px;--action-padding-x:20px;--action-icon-size:16px;--action-gap:8px;--action-min-height:44px}
+body .button,body.contact-flow .action:not([data-node-id="455:47646"]){font-size:var(--action-font-size)!important;line-height:var(--action-line-height)!important;padding:var(--action-padding-y) var(--action-padding-x)!important;height:auto!important;min-height:var(--action-min-height)!important;gap:var(--action-gap)!important;max-width:100%;white-space:normal;text-align:center}
+body .button>img{width:var(--action-icon-size)!important;height:var(--action-icon-size)!important;flex-shrink:0}
+body.contact-flow .action:not([data-node-id="455:47646"]) .semantic-text{font-size:var(--action-font-size)!important;line-height:var(--action-line-height)!important;text-align:center}
+@media(max-width:600px){:root{--action-font-size:12px;--action-line-height:18px;--action-padding-y:10px;--action-padding-x:16px;--action-icon-size:14px;--action-gap:7px}}
+/* Header actions leave room for the brand and menu control. */
+@media(max-width:1023px){body .header>.button,body.contact-flow [data-node-id="455:47673"]{font-size:12px!important;padding:10px 14px!important}body.contact-flow [data-node-id="455:47673"] .semantic-text{font-size:12px!important}}
