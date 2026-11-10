@@ -57,3 +57,6 @@ body.contact-flow .faq-item,body.contact-flow .field,body.contact-flow .upload{b
  body.contact-flow [data-node-id="455:47660"]>.contact-menu-project{display:flex;justify-content:center;margin-top:8px;background:var(--contact-ink);color:#fff;border-radius:999px}
 }
 @media(min-width:361px){body.contact-flow [data-node-id="455:47660"]>.contact-menu-project{display:none}}
+
+/* A clear upload cue above the existing file instructions. */
+body.contact-flow .upload::before{content:'';display:block;width:28px;height:28px;flex-shrink:0;background:var(--contact-copy);mask:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='black' stroke-width='1.6' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M12 16V3m-5 5 5-5 5 5M4 15v5a1 1 0 0 0 1 1h14a1 1 0 0 0 1-1v-5'/%3E%3C/svg%3E") center/contain no-repeat}
