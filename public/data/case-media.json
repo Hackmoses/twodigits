@@ -16,7 +16,7 @@
     "assets/case-layout/aba3c290ea8a42f4349c06a516b0cc3cdc5c00d9.png": "assets/case-web/aba3c290ea8a42f4349c06a516b0cc3cdc5c00d9-1440.webp",
     "assets/case-layout/acc33420da567f8acc37d03001e04235e431a674.png": "assets/case-web/acc33420da567f8acc37d03001e04235e431a674-1440.webp",
     "assets/case-layout/afbf4f0feca25770f6af9507f0f27f3fa5e52555.png": "assets/case-web/afbf4f0feca25770f6af9507f0f27f3fa5e52555-1440.webp",
-    "assets/case-layout/art-455-31565.svg": "assets/case-web/art-455-31565-1440.webp",
+    "assets/case-layout/art-455-31565.svg": "assets/case-web/art-455-31565-fit-1440.webp",
     "assets/case-layout/art-455-31708.svg": "assets/case-web/art-455-31708-1440.webp",
     "assets/case-layout/art-455-32405.svg": "assets/case-web/art-455-32405-1440.webp",
     "assets/case-layout/art-455-33090.svg": "assets/case-web/art-455-33090-1440.webp",
@@ -89,19 +89,19 @@
     ],
     "assets/case-layout/art-455-31565.svg": [
       {
-        "src": "assets/case-web/art-455-31565-720.webp",
+        "src": "assets/case-web/art-455-31565-fit-720.webp",
         "width": 720,
-        "height": 1059
+        "height": 1047
       },
       {
-        "src": "assets/case-web/art-455-31565-1440.webp",
+        "src": "assets/case-web/art-455-31565-fit-1440.webp",
         "width": 1440,
-        "height": 2119
+        "height": 2095
       },
       {
-        "src": "assets/case-web/art-455-31565-1932.webp",
+        "src": "assets/case-web/art-455-31565-fit-1932.webp",
         "width": 1932,
-        "height": 2843
+        "height": 2811
       }
     ],
     "assets/case-layout/art-455-31708.svg": [
