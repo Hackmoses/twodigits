@@ -1,0 +1,2920 @@
+{
+  "version": 1,
+  "templates": {
+    "blomgram": {
+      "title": "Blomgram — Cross-border payments",
+      "sections": [
+        {
+          "id": "455:43657",
+          "title": "Project overview",
+          "hidden": false
+        },
+        {
+          "id": "455:43685",
+          "title": "Cross-border money transfers can be stressful and difficult to navigate for Africans living, working, and doing business globally.",
+          "hidden": false
+        },
+        {
+          "id": "455:43702",
+          "title": "Target Users & Persona",
+          "hidden": false
+        },
+        {
+          "id": "455:43739",
+          "title": "04-Strategy",
+          "hidden": false
+        },
+        {
+          "id": "455:43772",
+          "title": "Core Transfer Experience",
+          "hidden": false
+        },
+        {
+          "id": "455:43835",
+          "title": "Strict Modular Foundations",
+          "hidden": false
+        },
+        {
+          "id": "455:43913",
+          "title": "Product artwork 7",
+          "hidden": false
+        },
+        {
+          "id": "455:43915",
+          "title": "Signup and Sign in Experience",
+          "hidden": false
+        },
+        {
+          "id": "455:43924",
+          "title": "User Onboarding & Verification",
+          "hidden": false
+        },
+        {
+          "id": "455:43932",
+          "title": "DASHBOARD",
+          "hidden": false
+        },
+        {
+          "id": "455:43940",
+          "title": "P2P Trading & Exchange App",
+          "hidden": false
+        },
+        {
+          "id": "455:43948",
+          "title": "Wallet Flow and Transaction",
+          "hidden": false
+        },
+        {
+          "id": "455:43957",
+          "title": "Product artwork 13",
+          "hidden": false
+        },
+        {
+          "id": "455:44247",
+          "title": "11-Reflection",
+          "hidden": false
+        },
+        {
+          "id": "455:44264",
+          "title": "THANK YOU  FOR SCROLLING",
+          "hidden": false
+        }
+      ],
+      "fields": {
+        "455:43660": {
+          "section": "455:43657",
+          "label": "Project overview — label",
+          "role": "Label"
+        },
+        "455:43661": {
+          "section": "455:43657",
+          "label": "Project overview — label",
+          "role": "Label"
+        },
+        "455:43662": {
+          "section": "455:43657",
+          "label": "Blomgram — heading",
+          "role": "Heading"
+        },
+        "455:43663": {
+          "section": "455:43657",
+          "label": "Blomgram — body",
+          "role": "Body"
+        },
+        "455:43664": {
+          "section": "455:43657",
+          "label": "Blomgram — artwork",
+          "role": "Artwork"
+        },
+        "455:43667": {
+          "section": "455:43657",
+          "label": "Blomgram — label",
+          "role": "Label"
+        },
+        "455:43668": {
+          "section": "455:43657",
+          "label": "Blomgram — label",
+          "role": "Label"
+        },
+        "455:43670": {
+          "section": "455:43657",
+          "label": "Blomgram — label",
+          "role": "Label"
+        },
+        "455:43671": {
+          "section": "455:43657",
+          "label": "Blomgram — label",
+          "role": "Label"
+        },
+        "455:43673": {
+          "section": "455:43657",
+          "label": "Blomgram — label",
+          "role": "Label"
+        },
+        "455:43674": {
+          "section": "455:43657",
+          "label": "Blomgram — label",
+          "role": "Label"
+        },
+        "455:43676": {
+          "section": "455:43657",
+          "label": "Blomgram — label",
+          "role": "Label"
+        },
+        "455:43677": {
+          "section": "455:43657",
+          "label": "Blomgram — label",
+          "role": "Label"
+        },
+        "455:43679": {
+          "section": "455:43657",
+          "label": "Blomgram — label",
+          "role": "Label"
+        },
+        "455:43680": {
+          "section": "455:43657",
+          "label": "Blomgram — label",
+          "role": "Label"
+        },
+        "455:43682": {
+          "section": "455:43657",
+          "label": "Blomgram — label",
+          "role": "Label"
+        },
+        "455:43683": {
+          "section": "455:43657",
+          "label": "Blomgram — label",
+          "role": "Label"
+        },
+        "455:43687": {
+          "section": "455:43685",
+          "label": "Section label",
+          "role": "Label"
+        },
+        "455:43688": {
+          "section": "455:43685",
+          "label": "Section label",
+          "role": "Label"
+        },
+        "455:43690": {
+          "section": "455:43685",
+          "label": "Cross-border money transfers can be stressful and difficult to navigate for Africans living, working, and doing business globally. — body",
+          "role": "Body"
+        },
+        "455:43693": {
+          "section": "455:43685",
+          "label": "Section label",
+          "role": "Label"
+        },
+        "455:43694": {
+          "section": "455:43685",
+          "label": "Cross-border money transfers can be stressful and difficult to navigate for Africans living, working, and doing business globally. — body",
+          "role": "Body"
+        },
+        "455:43696": {
+          "section": "455:43685",
+          "label": "Section label",
+          "role": "Label"
+        },
+        "455:43697": {
+          "section": "455:43685",
+          "label": "Cross-border money transfers can be stressful and difficult to navigate for Africans living, working, and doing business globally. — body",
+          "role": "Body"
+        },
+        "455:43699": {
+          "section": "455:43685",
+          "label": "Section label",
+          "role": "Label"
+        },
+        "455:43700": {
+          "section": "455:43685",
+          "label": "Cross-border money transfers can be stressful and difficult to navigate for Africans living, working, and doing business globally. — body",
+          "role": "Body"
+        },
+        "455:43704": {
+          "section": "455:43702",
+          "label": "Target Users & Persona — label",
+          "role": "Label"
+        },
+        "455:43705": {
+          "section": "455:43702",
+          "label": "Target Users & Persona — label",
+          "role": "Label"
+        },
+        "455:43708": {
+          "section": "455:43702",
+          "label": "Target Users & Persona — heading",
+          "role": "Heading"
+        },
+        "455:43711": {
+          "section": "455:43702",
+          "label": "Target Users & Persona — artwork",
+          "role": "Artwork"
+        },
+        "455:43713": {
+          "section": "455:43702",
+          "label": "Amara Okafor — label",
+          "role": "Label"
+        },
+        "455:43714": {
+          "section": "455:43702",
+          "label": "Amara Okafor — label",
+          "role": "Label"
+        },
+        "455:43715": {
+          "section": "455:43702",
+          "label": "Amara Okafor — label",
+          "role": "Label"
+        },
+        "455:43717": {
+          "section": "455:43702",
+          "label": "Amara Okafor — body",
+          "role": "Body"
+        },
+        "455:43721": {
+          "section": "455:43702",
+          "label": "Amara Okafor — artwork",
+          "role": "Artwork"
+        },
+        "455:43723": {
+          "section": "455:43702",
+          "label": "Daniel Mensah — label",
+          "role": "Label"
+        },
+        "455:43724": {
+          "section": "455:43702",
+          "label": "Daniel Mensah — label",
+          "role": "Label"
+        },
+        "455:43725": {
+          "section": "455:43702",
+          "label": "Daniel Mensah — label",
+          "role": "Label"
+        },
+        "455:43727": {
+          "section": "455:43702",
+          "label": "Daniel Mensah — body",
+          "role": "Body"
+        },
+        "455:43731": {
+          "section": "455:43702",
+          "label": "Daniel Mensah — artwork",
+          "role": "Artwork"
+        },
+        "455:43733": {
+          "section": "455:43702",
+          "label": "Chiamaka Eze — label",
+          "role": "Label"
+        },
+        "455:43734": {
+          "section": "455:43702",
+          "label": "Chiamaka Eze — label",
+          "role": "Label"
+        },
+        "455:43735": {
+          "section": "455:43702",
+          "label": "Chiamaka Eze — label",
+          "role": "Label"
+        },
+        "455:43737": {
+          "section": "455:43702",
+          "label": "Chiamaka Eze — body",
+          "role": "Body"
+        },
+        "455:43742": {
+          "section": "455:43739",
+          "label": "04-Strategy — label",
+          "role": "Label"
+        },
+        "455:43743": {
+          "section": "455:43739",
+          "label": "04-Strategy — label",
+          "role": "Label"
+        },
+        "455:43745": {
+          "section": "455:43739",
+          "label": "04-Strategy — label",
+          "role": "Label"
+        },
+        "455:43748": {
+          "section": "455:43739",
+          "label": "01 Simplify transfers — label",
+          "role": "Label"
+        },
+        "455:43751": {
+          "section": "455:43739",
+          "label": "01 Simplify transfers — label",
+          "role": "Label"
+        },
+        "455:43752": {
+          "section": "455:43739",
+          "label": "01 Simplify transfers — label",
+          "role": "Label"
+        },
+        "455:43754": {
+          "section": "455:43739",
+          "label": "02 Build trust — label",
+          "role": "Label"
+        },
+        "455:43757": {
+          "section": "455:43739",
+          "label": "02 Build trust — label",
+          "role": "Label"
+        },
+        "455:43758": {
+          "section": "455:43739",
+          "label": "02 Build trust — label",
+          "role": "Label"
+        },
+        "455:43760": {
+          "section": "455:43739",
+          "label": "03 Create a unified financial experience — label",
+          "role": "Label"
+        },
+        "455:43763": {
+          "section": "455:43739",
+          "label": "03 Create a unified financial experience — label",
+          "role": "Label"
+        },
+        "455:43764": {
+          "section": "455:43739",
+          "label": "03 Create a unified financial experience — label",
+          "role": "Label"
+        },
+        "455:43766": {
+          "section": "455:43739",
+          "label": "04 Design for global Africans — label",
+          "role": "Label"
+        },
+        "455:43769": {
+          "section": "455:43739",
+          "label": "04 Design for global Africans — label",
+          "role": "Label"
+        },
+        "455:43770": {
+          "section": "455:43739",
+          "label": "04 Design for global Africans — label",
+          "role": "Label"
+        },
+        "455:43774": {
+          "section": "455:43772",
+          "label": "Core Transfer Experience — label",
+          "role": "Label"
+        },
+        "455:43775": {
+          "section": "455:43772",
+          "label": "Core Transfer Experience — label",
+          "role": "Label"
+        },
+        "455:43777": {
+          "section": "455:43772",
+          "label": "Core Transfer Experience — heading",
+          "role": "Heading"
+        },
+        "455:43778": {
+          "section": "455:43772",
+          "label": "Core Transfer Experience — label",
+          "role": "Label"
+        },
+        "455:43783": {
+          "section": "455:43772",
+          "label": "Core Transfer Experience — label",
+          "role": "Label"
+        },
+        "455:43784": {
+          "section": "455:43772",
+          "label": "Core Transfer Experience — label",
+          "role": "Label"
+        },
+        "455:43785": {
+          "section": "455:43772",
+          "label": "Core Transfer Experience — label",
+          "role": "Label"
+        },
+        "455:43787": {
+          "section": "455:43772",
+          "label": "Core Transfer Experience — artwork",
+          "role": "Artwork"
+        },
+        "455:43790": {
+          "section": "455:43772",
+          "label": "Core Transfer Experience — label",
+          "role": "Label"
+        },
+        "455:43791": {
+          "section": "455:43772",
+          "label": "Core Transfer Experience — label",
+          "role": "Label"
+        },
+        "455:43792": {
+          "section": "455:43772",
+          "label": "Core Transfer Experience — label",
+          "role": "Label"
+        },
+        "455:43794": {
+          "section": "455:43772",
+          "label": "Core Transfer Experience — artwork",
+          "role": "Artwork"
+        },
+        "455:43797": {
+          "section": "455:43772",
+          "label": "Core Transfer Experience — label",
+          "role": "Label"
+        },
+        "455:43798": {
+          "section": "455:43772",
+          "label": "Core Transfer Experience — label",
+          "role": "Label"
+        },
+        "455:43799": {
+          "section": "455:43772",
+          "label": "Core Transfer Experience — label",
+          "role": "Label"
+        },
+        "455:43801": {
+          "section": "455:43772",
+          "label": "Core Transfer Experience — artwork",
+          "role": "Artwork"
+        },
+        "455:43804": {
+          "section": "455:43772",
+          "label": "Core Transfer Experience — label",
+          "role": "Label"
+        },
+        "455:43805": {
+          "section": "455:43772",
+          "label": "Core Transfer Experience — label",
+          "role": "Label"
+        },
+        "455:43806": {
+          "section": "455:43772",
+          "label": "Core Transfer Experience — label",
+          "role": "Label"
+        },
+        "455:43810": {
+          "section": "455:43772",
+          "label": "Core Transfer Experience — label",
+          "role": "Label"
+        },
+        "455:43811": {
+          "section": "455:43772",
+          "label": "Core Transfer Experience — label",
+          "role": "Label"
+        },
+        "455:43812": {
+          "section": "455:43772",
+          "label": "Core Transfer Experience — label",
+          "role": "Label"
+        },
+        "455:43814": {
+          "section": "455:43772",
+          "label": "Core Transfer Experience — artwork",
+          "role": "Artwork"
+        },
+        "455:43817": {
+          "section": "455:43772",
+          "label": "Core Transfer Experience — label",
+          "role": "Label"
+        },
+        "455:43818": {
+          "section": "455:43772",
+          "label": "Core Transfer Experience — label",
+          "role": "Label"
+        },
+        "455:43819": {
+          "section": "455:43772",
+          "label": "Core Transfer Experience — label",
+          "role": "Label"
+        },
+        "455:43821": {
+          "section": "455:43772",
+          "label": "Core Transfer Experience — artwork",
+          "role": "Artwork"
+        },
+        "455:43824": {
+          "section": "455:43772",
+          "label": "Core Transfer Experience — label",
+          "role": "Label"
+        },
+        "455:43825": {
+          "section": "455:43772",
+          "label": "Core Transfer Experience — label",
+          "role": "Label"
+        },
+        "455:43826": {
+          "section": "455:43772",
+          "label": "Core Transfer Experience — label",
+          "role": "Label"
+        },
+        "455:43828": {
+          "section": "455:43772",
+          "label": "Core Transfer Experience — artwork",
+          "role": "Artwork"
+        },
+        "455:43831": {
+          "section": "455:43772",
+          "label": "Core Transfer Experience — label",
+          "role": "Label"
+        },
+        "455:43832": {
+          "section": "455:43772",
+          "label": "Core Transfer Experience — label",
+          "role": "Label"
+        },
+        "455:43833": {
+          "section": "455:43772",
+          "label": "Core Transfer Experience — label",
+          "role": "Label"
+        },
+        "455:43837": {
+          "section": "455:43835",
+          "label": "Strict Modular Foundations — label",
+          "role": "Label"
+        },
+        "455:43838": {
+          "section": "455:43835",
+          "label": "Strict Modular Foundations — label",
+          "role": "Label"
+        },
+        "455:43840": {
+          "section": "455:43835",
+          "label": "Strict Modular Foundations — heading",
+          "role": "Heading"
+        },
+        "455:43841": {
+          "section": "455:43835",
+          "label": "Strict Modular Foundations — label",
+          "role": "Label"
+        },
+        "455:43845": {
+          "section": "455:43835",
+          "label": "Strict Modular Foundations — label",
+          "role": "Label"
+        },
+        "455:43850": {
+          "section": "455:43835",
+          "label": "Strict Modular Foundations — label",
+          "role": "Label"
+        },
+        "455:43851": {
+          "section": "455:43835",
+          "label": "Strict Modular Foundations — label",
+          "role": "Label"
+        },
+        "455:43855": {
+          "section": "455:43835",
+          "label": "Strict Modular Foundations — label",
+          "role": "Label"
+        },
+        "455:43856": {
+          "section": "455:43835",
+          "label": "Strict Modular Foundations — label",
+          "role": "Label"
+        },
+        "455:43860": {
+          "section": "455:43835",
+          "label": "Strict Modular Foundations — label",
+          "role": "Label"
+        },
+        "455:43861": {
+          "section": "455:43835",
+          "label": "Strict Modular Foundations — label",
+          "role": "Label"
+        },
+        "455:43865": {
+          "section": "455:43835",
+          "label": "Strict Modular Foundations — label",
+          "role": "Label"
+        },
+        "455:43866": {
+          "section": "455:43835",
+          "label": "Strict Modular Foundations — label",
+          "role": "Label"
+        },
+        "455:43870": {
+          "section": "455:43835",
+          "label": "Strict Modular Foundations — label",
+          "role": "Label"
+        },
+        "455:43871": {
+          "section": "455:43835",
+          "label": "Strict Modular Foundations — label",
+          "role": "Label"
+        },
+        "455:43873": {
+          "section": "455:43835",
+          "label": "Strict Modular Foundations — label",
+          "role": "Label"
+        },
+        "455:43878": {
+          "section": "455:43835",
+          "label": "Strict Modular Foundations — label",
+          "role": "Label"
+        },
+        "455:43879": {
+          "section": "455:43835",
+          "label": "Strict Modular Foundations — label",
+          "role": "Label"
+        },
+        "455:43883": {
+          "section": "455:43835",
+          "label": "Strict Modular Foundations — label",
+          "role": "Label"
+        },
+        "455:43884": {
+          "section": "455:43835",
+          "label": "Strict Modular Foundations — label",
+          "role": "Label"
+        },
+        "455:43888": {
+          "section": "455:43835",
+          "label": "Strict Modular Foundations — label",
+          "role": "Label"
+        },
+        "455:43889": {
+          "section": "455:43835",
+          "label": "Strict Modular Foundations — label",
+          "role": "Label"
+        },
+        "455:43893": {
+          "section": "455:43835",
+          "label": "Strict Modular Foundations — label",
+          "role": "Label"
+        },
+        "455:43894": {
+          "section": "455:43835",
+          "label": "Strict Modular Foundations — label",
+          "role": "Label"
+        },
+        "455:43898": {
+          "section": "455:43835",
+          "label": "Strict Modular Foundations — label",
+          "role": "Label"
+        },
+        "455:43899": {
+          "section": "455:43835",
+          "label": "Strict Modular Foundations — label",
+          "role": "Label"
+        },
+        "455:43901": {
+          "section": "455:43835",
+          "label": "Strict Modular Foundations — label",
+          "role": "Label"
+        },
+        "455:43903": {
+          "section": "455:43835",
+          "label": "Inter — 36px — heading",
+          "role": "Heading"
+        },
+        "455:43904": {
+          "section": "455:43835",
+          "label": "Inter — 36px — label",
+          "role": "Label"
+        },
+        "455:43905": {
+          "section": "455:43835",
+          "label": "Inter — 36px — label",
+          "role": "Label"
+        },
+        "455:43907": {
+          "section": "455:43835",
+          "label": "Inter — 36px — label",
+          "role": "Label"
+        },
+        "455:43910": {
+          "section": "455:43835",
+          "label": "Inter — 36px — label",
+          "role": "Label"
+        },
+        "455:43912": {
+          "section": "455:43835",
+          "label": "Inter — 36px — label",
+          "role": "Label"
+        },
+        "455:43914": {
+          "section": "455:43913",
+          "label": "Product artwork 7 — artwork",
+          "role": "Artwork"
+        },
+        "455:43917": {
+          "section": "455:43915",
+          "label": "Signup and Sign in Experience — label",
+          "role": "Label"
+        },
+        "455:43919": {
+          "section": "455:43915",
+          "label": "Signup and Sign in Experience — heading",
+          "role": "Heading"
+        },
+        "455:43920": {
+          "section": "455:43915",
+          "label": "Signup and Sign in Experience — body",
+          "role": "Body"
+        },
+        "455:43921": {
+          "section": "455:43915",
+          "label": "Signup and Sign in Experience — artwork",
+          "role": "Artwork"
+        },
+        "455:43926": {
+          "section": "455:43924",
+          "label": "User Onboarding & Verification — label",
+          "role": "Label"
+        },
+        "455:43927": {
+          "section": "455:43924",
+          "label": "User Onboarding & Verification — label",
+          "role": "Label"
+        },
+        "455:43929": {
+          "section": "455:43924",
+          "label": "User Onboarding & Verification — heading",
+          "role": "Heading"
+        },
+        "455:43930": {
+          "section": "455:43924",
+          "label": "User Onboarding & Verification — body",
+          "role": "Body"
+        },
+        "455:43931": {
+          "section": "455:43924",
+          "label": "User Onboarding & Verification — artwork",
+          "role": "Artwork"
+        },
+        "455:43934": {
+          "section": "455:43932",
+          "label": "DASHBOARD — label",
+          "role": "Label"
+        },
+        "455:43935": {
+          "section": "455:43932",
+          "label": "DASHBOARD — label",
+          "role": "Label"
+        },
+        "455:43937": {
+          "section": "455:43932",
+          "label": "DASHBOARD — heading",
+          "role": "Heading"
+        },
+        "455:43938": {
+          "section": "455:43932",
+          "label": "DASHBOARD — body",
+          "role": "Body"
+        },
+        "455:43939": {
+          "section": "455:43932",
+          "label": "DASHBOARD — artwork",
+          "role": "Artwork"
+        },
+        "455:43942": {
+          "section": "455:43940",
+          "label": "P2P Trading & Exchange App — label",
+          "role": "Label"
+        },
+        "455:43943": {
+          "section": "455:43940",
+          "label": "P2P Trading & Exchange App — label",
+          "role": "Label"
+        },
+        "455:43945": {
+          "section": "455:43940",
+          "label": "P2P Trading & Exchange App — heading",
+          "role": "Heading"
+        },
+        "455:43946": {
+          "section": "455:43940",
+          "label": "P2P Trading & Exchange App — body",
+          "role": "Body"
+        },
+        "455:43947": {
+          "section": "455:43940",
+          "label": "P2P Trading & Exchange App — artwork",
+          "role": "Artwork"
+        },
+        "455:43950": {
+          "section": "455:43948",
+          "label": "Wallet Flow and Transaction — label",
+          "role": "Label"
+        },
+        "455:43951": {
+          "section": "455:43948",
+          "label": "Wallet Flow and Transaction — label",
+          "role": "Label"
+        },
+        "455:43953": {
+          "section": "455:43948",
+          "label": "Wallet Flow and Transaction — heading",
+          "role": "Heading"
+        },
+        "455:43954": {
+          "section": "455:43948",
+          "label": "Wallet Flow and Transaction — body",
+          "role": "Body"
+        },
+        "455:43955": {
+          "section": "455:43948",
+          "label": "Wallet Flow and Transaction — artwork",
+          "role": "Artwork"
+        },
+        "455:43958": {
+          "section": "455:43957",
+          "label": "Product artwork 13 — artwork",
+          "role": "Artwork"
+        },
+        "455:44249": {
+          "section": "455:44247",
+          "label": "11-Reflection — label",
+          "role": "Label"
+        },
+        "455:44250": {
+          "section": "455:44247",
+          "label": "11-Reflection — label",
+          "role": "Label"
+        },
+        "455:44253": {
+          "section": "455:44247",
+          "label": "What Worked — label",
+          "role": "Label"
+        },
+        "455:44254": {
+          "section": "455:44247",
+          "label": "What Worked — body",
+          "role": "Body"
+        },
+        "455:44256": {
+          "section": "455:44247",
+          "label": "The Challenges — label",
+          "role": "Label"
+        },
+        "455:44257": {
+          "section": "455:44247",
+          "label": "The Challenges — body",
+          "role": "Body"
+        },
+        "455:44259": {
+          "section": "455:44247",
+          "label": "Lessons Learned — label",
+          "role": "Label"
+        },
+        "455:44260": {
+          "section": "455:44247",
+          "label": "Lessons Learned — body",
+          "role": "Body"
+        },
+        "455:44262": {
+          "section": "455:44247",
+          "label": "Areas For Growth — label",
+          "role": "Label"
+        },
+        "455:44263": {
+          "section": "455:44247",
+          "label": "Areas For Growth — body",
+          "role": "Body"
+        },
+        "455:44267": {
+          "section": "455:44264",
+          "label": "THANK YOU  FOR SCROLLING — artwork",
+          "role": "Artwork"
+        },
+        "455:44268": {
+          "section": "455:44264",
+          "label": "THANK YOU  FOR SCROLLING — artwork",
+          "role": "Artwork"
+        },
+        "455:44269": {
+          "section": "455:44264",
+          "label": "THANK YOU  FOR SCROLLING — artwork",
+          "role": "Artwork"
+        },
+        "455:44271": {
+          "section": "455:44264",
+          "label": "THANK YOU  FOR SCROLLING — artwork",
+          "role": "Artwork"
+        },
+        "455:44272": {
+          "section": "455:44264",
+          "label": "THANK YOU  FOR SCROLLING — artwork",
+          "role": "Artwork"
+        },
+        "455:44273": {
+          "section": "455:44264",
+          "label": "THANK YOU  FOR SCROLLING — artwork",
+          "role": "Artwork"
+        },
+        "455:44274": {
+          "section": "455:44264",
+          "label": "THANK YOU  FOR SCROLLING — artwork",
+          "role": "Artwork"
+        },
+        "455:44281": {
+          "section": "455:44264",
+          "label": "THANK YOU\n FOR SCROLLING — heading",
+          "role": "Heading"
+        },
+        "455:44282": {
+          "section": "455:44264",
+          "label": "LET’S WORK TOGETHER — heading",
+          "role": "Heading"
+        }
+      },
+      "hiddenSections": []
+    },
+    "ai-patient-intake": {
+      "title": "AI Patient Intake — Guided healthcare onboarding",
+      "sections": [
+        {
+          "id": "455:30997",
+          "title": "Project overview",
+          "hidden": false
+        },
+        {
+          "id": "455:31027",
+          "title": "The Challenge",
+          "hidden": false
+        },
+        {
+          "id": "455:31048",
+          "title": "My Design Approach",
+          "hidden": false
+        },
+        {
+          "id": "455:31074",
+          "title": "The Challenge",
+          "hidden": true
+        },
+        {
+          "id": "455:31095",
+          "title": "User Experience",
+          "hidden": false
+        },
+        {
+          "id": "455:31143",
+          "title": "Strict Modular Foundations",
+          "hidden": false
+        },
+        {
+          "id": "455:31231",
+          "title": "Core Transfer Experience",
+          "hidden": true
+        },
+        {
+          "id": "455:31294",
+          "title": "Intake interface — Personal information",
+          "hidden": false
+        },
+        {
+          "id": "455:31297",
+          "title": "Intake interface — Medical history",
+          "hidden": false
+        },
+        {
+          "id": "455:31298",
+          "title": "Guided intake screen",
+          "hidden": false
+        },
+        {
+          "id": "455:31707",
+          "title": "Medical history details",
+          "hidden": false
+        },
+        {
+          "id": "455:32404",
+          "title": "Intake review",
+          "hidden": false
+        },
+        {
+          "id": "455:32832",
+          "title": "Final intake interface",
+          "hidden": false
+        }
+      ],
+      "fields": {
+        "455:31000": {
+          "section": "455:30997",
+          "label": "Project overview — label",
+          "role": "Label"
+        },
+        "455:31001": {
+          "section": "455:30997",
+          "label": "Project overview — label",
+          "role": "Label"
+        },
+        "455:31002": {
+          "section": "455:30997",
+          "label": "Ai-Patient Intake Form — heading",
+          "role": "Heading"
+        },
+        "455:31003": {
+          "section": "455:30997",
+          "label": "Ai-Patient Intake Form — body",
+          "role": "Body"
+        },
+        "455:31004": {
+          "section": "455:30997",
+          "label": "Ai-Patient Intake Form — artwork",
+          "role": "Artwork"
+        },
+        "455:31007": {
+          "section": "455:30997",
+          "label": "Ai-Patient Intake Form — label",
+          "role": "Label"
+        },
+        "455:31008": {
+          "section": "455:30997",
+          "label": "Ai-Patient Intake Form — label",
+          "role": "Label"
+        },
+        "455:31010": {
+          "section": "455:30997",
+          "label": "Ai-Patient Intake Form — label",
+          "role": "Label"
+        },
+        "455:31011": {
+          "section": "455:30997",
+          "label": "Ai-Patient Intake Form — label",
+          "role": "Label"
+        },
+        "455:31013": {
+          "section": "455:30997",
+          "label": "Ai-Patient Intake Form — label",
+          "role": "Label"
+        },
+        "455:31014": {
+          "section": "455:30997",
+          "label": "Ai-Patient Intake Form — label",
+          "role": "Label"
+        },
+        "455:31016": {
+          "section": "455:30997",
+          "label": "Ai-Patient Intake Form — label",
+          "role": "Label"
+        },
+        "455:31017": {
+          "section": "455:30997",
+          "label": "Ai-Patient Intake Form — label",
+          "role": "Label"
+        },
+        "455:31020": {
+          "section": "455:30997",
+          "label": "Ai-Patient Intake Form — label",
+          "role": "Label"
+        },
+        "455:31021": {
+          "section": "455:30997",
+          "label": "Ai-Patient Intake Form — label",
+          "role": "Label"
+        },
+        "455:31023": {
+          "section": "455:30997",
+          "label": "Ai-Patient Intake Form — label",
+          "role": "Label"
+        },
+        "455:31024": {
+          "section": "455:30997",
+          "label": "Ai-Patient Intake Form — label",
+          "role": "Label"
+        },
+        "455:31030": {
+          "section": "455:31027",
+          "label": "The Challenge — heading",
+          "role": "Heading"
+        },
+        "455:31031": {
+          "section": "455:31027",
+          "label": "The Challenge — heading",
+          "role": "Heading"
+        },
+        "455:31033": {
+          "section": "455:31027",
+          "label": "The Challenge — heading",
+          "role": "Heading"
+        },
+        "455:31034": {
+          "section": "455:31027",
+          "label": "Product Goal — heading",
+          "role": "Heading"
+        },
+        "455:31037": {
+          "section": "455:31027",
+          "label": "Product Goal — body",
+          "role": "Body"
+        },
+        "455:31040": {
+          "section": "455:31027",
+          "label": "Product Goal — label",
+          "role": "Label"
+        },
+        "455:31041": {
+          "section": "455:31027",
+          "label": "Product Goal — body",
+          "role": "Body"
+        },
+        "455:31043": {
+          "section": "455:31027",
+          "label": "Product Goal — heading",
+          "role": "Heading"
+        },
+        "455:31046": {
+          "section": "455:31027",
+          "label": "Product Goal — label",
+          "role": "Label"
+        },
+        "455:31047": {
+          "section": "455:31027",
+          "label": "Product Goal — body",
+          "role": "Body"
+        },
+        "455:31050": {
+          "section": "455:31048",
+          "label": "My Design Approach — label",
+          "role": "Label"
+        },
+        "455:31051": {
+          "section": "455:31048",
+          "label": "My Design Approach — label",
+          "role": "Label"
+        },
+        "455:31054": {
+          "section": "455:31048",
+          "label": "My Design Approach — heading",
+          "role": "Heading"
+        },
+        "455:31058": {
+          "section": "455:31048",
+          "label": "01  Understand the Intake Journey — label",
+          "role": "Label"
+        },
+        "455:31060": {
+          "section": "455:31048",
+          "label": "01  Understand the Intake Journey — body",
+          "role": "Body"
+        },
+        "455:31064": {
+          "section": "455:31048",
+          "label": "02  Design for Progressive Disclosure — label",
+          "role": "Label"
+        },
+        "455:31066": {
+          "section": "455:31048",
+          "label": "02  Design for Progressive Disclosure — body",
+          "role": "Body"
+        },
+        "455:31071": {
+          "section": "455:31048",
+          "label": "03  Introduce AI Assistance — label",
+          "role": "Label"
+        },
+        "455:31073": {
+          "section": "455:31048",
+          "label": "03  Introduce AI Assistance — body",
+          "role": "Body"
+        },
+        "455:31077": {
+          "section": "455:31074",
+          "label": "The Challenge — heading",
+          "role": "Heading"
+        },
+        "455:31078": {
+          "section": "455:31074",
+          "label": "The Challenge — heading",
+          "role": "Heading"
+        },
+        "455:31080": {
+          "section": "455:31074",
+          "label": "The Challenge — heading",
+          "role": "Heading"
+        },
+        "455:31081": {
+          "section": "455:31074",
+          "label": "Product Goal — heading",
+          "role": "Heading"
+        },
+        "455:31084": {
+          "section": "455:31074",
+          "label": "Product Goal — body",
+          "role": "Body"
+        },
+        "455:31087": {
+          "section": "455:31074",
+          "label": "Product Goal — label",
+          "role": "Label"
+        },
+        "455:31088": {
+          "section": "455:31074",
+          "label": "Product Goal — body",
+          "role": "Body"
+        },
+        "455:31090": {
+          "section": "455:31074",
+          "label": "Product Goal — heading",
+          "role": "Heading"
+        },
+        "455:31093": {
+          "section": "455:31074",
+          "label": "Product Goal — label",
+          "role": "Label"
+        },
+        "455:31094": {
+          "section": "455:31074",
+          "label": "Product Goal — body",
+          "role": "Body"
+        },
+        "455:31097": {
+          "section": "455:31095",
+          "label": "User Experience — label",
+          "role": "Label"
+        },
+        "455:31098": {
+          "section": "455:31095",
+          "label": "User Experience — label",
+          "role": "Label"
+        },
+        "455:31101": {
+          "section": "455:31095",
+          "label": "User Experience — heading",
+          "role": "Heading"
+        },
+        "455:31105": {
+          "section": "455:31095",
+          "label": "A guided onboarding experience — label",
+          "role": "Label"
+        },
+        "455:31107": {
+          "section": "455:31095",
+          "label": "A guided onboarding experience — body",
+          "role": "Body"
+        },
+        "455:31111": {
+          "section": "455:31095",
+          "label": "Step 2 — Personal Information — label",
+          "role": "Label"
+        },
+        "455:31113": {
+          "section": "455:31095",
+          "label": "Step 2 — Personal Information — body",
+          "role": "Body"
+        },
+        "455:31118": {
+          "section": "455:31095",
+          "label": "Step 3 — Reason for Visit — label",
+          "role": "Label"
+        },
+        "455:31120": {
+          "section": "455:31095",
+          "label": "Step 3 — Reason for Visit — body",
+          "role": "Body"
+        },
+        "455:31126": {
+          "section": "455:31095",
+          "label": "Step 4 — Medical History — label",
+          "role": "Label"
+        },
+        "455:31128": {
+          "section": "455:31095",
+          "label": "Step 4 — Medical History — body",
+          "role": "Body"
+        },
+        "455:31132": {
+          "section": "455:31095",
+          "label": "Step 5 — Symptoms — label",
+          "role": "Label"
+        },
+        "455:31134": {
+          "section": "455:31095",
+          "label": "Step 5 — Symptoms — body",
+          "role": "Body"
+        },
+        "455:31139": {
+          "section": "455:31095",
+          "label": "Step 6 — Review & Confirmation — label",
+          "role": "Label"
+        },
+        "455:31141": {
+          "section": "455:31095",
+          "label": "Step 6 — Review & Confirmation — body",
+          "role": "Body"
+        },
+        "455:31145": {
+          "section": "455:31143",
+          "label": "Strict Modular Foundations — label",
+          "role": "Label"
+        },
+        "455:31146": {
+          "section": "455:31143",
+          "label": "Strict Modular Foundations — label",
+          "role": "Label"
+        },
+        "455:31148": {
+          "section": "455:31143",
+          "label": "Strict Modular Foundations — heading",
+          "role": "Heading"
+        },
+        "455:31149": {
+          "section": "455:31143",
+          "label": "Strict Modular Foundations — label",
+          "role": "Label"
+        },
+        "455:31153": {
+          "section": "455:31143",
+          "label": "Strict Modular Foundations — label",
+          "role": "Label"
+        },
+        "455:31158": {
+          "section": "455:31143",
+          "label": "Strict Modular Foundations — label",
+          "role": "Label"
+        },
+        "455:31159": {
+          "section": "455:31143",
+          "label": "Strict Modular Foundations — label",
+          "role": "Label"
+        },
+        "455:31163": {
+          "section": "455:31143",
+          "label": "Strict Modular Foundations — label",
+          "role": "Label"
+        },
+        "455:31164": {
+          "section": "455:31143",
+          "label": "Strict Modular Foundations — label",
+          "role": "Label"
+        },
+        "455:31168": {
+          "section": "455:31143",
+          "label": "Strict Modular Foundations — label",
+          "role": "Label"
+        },
+        "455:31169": {
+          "section": "455:31143",
+          "label": "Strict Modular Foundations — label",
+          "role": "Label"
+        },
+        "455:31173": {
+          "section": "455:31143",
+          "label": "Strict Modular Foundations — label",
+          "role": "Label"
+        },
+        "455:31174": {
+          "section": "455:31143",
+          "label": "Strict Modular Foundations — label",
+          "role": "Label"
+        },
+        "455:31178": {
+          "section": "455:31143",
+          "label": "Strict Modular Foundations — label",
+          "role": "Label"
+        },
+        "455:31179": {
+          "section": "455:31143",
+          "label": "Strict Modular Foundations — label",
+          "role": "Label"
+        },
+        "455:31181": {
+          "section": "455:31143",
+          "label": "Strict Modular Foundations — label",
+          "role": "Label"
+        },
+        "455:31186": {
+          "section": "455:31143",
+          "label": "Strict Modular Foundations — label",
+          "role": "Label"
+        },
+        "455:31187": {
+          "section": "455:31143",
+          "label": "Strict Modular Foundations — label",
+          "role": "Label"
+        },
+        "455:31191": {
+          "section": "455:31143",
+          "label": "Strict Modular Foundations — label",
+          "role": "Label"
+        },
+        "455:31192": {
+          "section": "455:31143",
+          "label": "Strict Modular Foundations — label",
+          "role": "Label"
+        },
+        "455:31196": {
+          "section": "455:31143",
+          "label": "Strict Modular Foundations — label",
+          "role": "Label"
+        },
+        "455:31197": {
+          "section": "455:31143",
+          "label": "Strict Modular Foundations — label",
+          "role": "Label"
+        },
+        "455:31201": {
+          "section": "455:31143",
+          "label": "Strict Modular Foundations — label",
+          "role": "Label"
+        },
+        "455:31202": {
+          "section": "455:31143",
+          "label": "Strict Modular Foundations — label",
+          "role": "Label"
+        },
+        "455:31206": {
+          "section": "455:31143",
+          "label": "Strict Modular Foundations — label",
+          "role": "Label"
+        },
+        "455:31207": {
+          "section": "455:31143",
+          "label": "Strict Modular Foundations — label",
+          "role": "Label"
+        },
+        "455:31209": {
+          "section": "455:31143",
+          "label": "Strict Modular Foundations — label",
+          "role": "Label"
+        },
+        "455:31211": {
+          "section": "455:31143",
+          "label": "Inter — 36px — heading",
+          "role": "Heading"
+        },
+        "455:31212": {
+          "section": "455:31143",
+          "label": "Inter — 36px — label",
+          "role": "Label"
+        },
+        "455:31213": {
+          "section": "455:31143",
+          "label": "Inter — 36px — label",
+          "role": "Label"
+        },
+        "455:31215": {
+          "section": "455:31143",
+          "label": "Inter — 36px — label",
+          "role": "Label"
+        },
+        "455:31218": {
+          "section": "455:31143",
+          "label": "Inter — 36px — label",
+          "role": "Label"
+        },
+        "455:31220": {
+          "section": "455:31143",
+          "label": "Inter — 36px — label",
+          "role": "Label"
+        },
+        "455:31225": {
+          "section": "455:31143",
+          "label": "Inter — 36px — artwork",
+          "role": "Artwork"
+        },
+        "455:31226": {
+          "section": "455:31143",
+          "label": "Inter — 36px — artwork",
+          "role": "Artwork"
+        },
+        "455:31227": {
+          "section": "455:31143",
+          "label": "Inter — 36px — artwork",
+          "role": "Artwork"
+        },
+        "455:31228": {
+          "section": "455:31143",
+          "label": "Inter — 36px — artwork",
+          "role": "Artwork"
+        },
+        "455:31229": {
+          "section": "455:31143",
+          "label": "AI-Patient\nIntake Form — heading",
+          "role": "Heading"
+        },
+        "455:31233": {
+          "section": "455:31231",
+          "label": "Core Transfer Experience — label",
+          "role": "Label"
+        },
+        "455:31234": {
+          "section": "455:31231",
+          "label": "Core Transfer Experience — label",
+          "role": "Label"
+        },
+        "455:31236": {
+          "section": "455:31231",
+          "label": "Core Transfer Experience — heading",
+          "role": "Heading"
+        },
+        "455:31237": {
+          "section": "455:31231",
+          "label": "Core Transfer Experience — label",
+          "role": "Label"
+        },
+        "455:31242": {
+          "section": "455:31231",
+          "label": "Core Transfer Experience — label",
+          "role": "Label"
+        },
+        "455:31243": {
+          "section": "455:31231",
+          "label": "Core Transfer Experience — label",
+          "role": "Label"
+        },
+        "455:31244": {
+          "section": "455:31231",
+          "label": "Core Transfer Experience — label",
+          "role": "Label"
+        },
+        "455:31246": {
+          "section": "455:31231",
+          "label": "Core Transfer Experience — artwork",
+          "role": "Artwork"
+        },
+        "455:31249": {
+          "section": "455:31231",
+          "label": "Core Transfer Experience — label",
+          "role": "Label"
+        },
+        "455:31250": {
+          "section": "455:31231",
+          "label": "Core Transfer Experience — label",
+          "role": "Label"
+        },
+        "455:31251": {
+          "section": "455:31231",
+          "label": "Core Transfer Experience — label",
+          "role": "Label"
+        },
+        "455:31253": {
+          "section": "455:31231",
+          "label": "Core Transfer Experience — artwork",
+          "role": "Artwork"
+        },
+        "455:31256": {
+          "section": "455:31231",
+          "label": "Core Transfer Experience — label",
+          "role": "Label"
+        },
+        "455:31257": {
+          "section": "455:31231",
+          "label": "Core Transfer Experience — label",
+          "role": "Label"
+        },
+        "455:31258": {
+          "section": "455:31231",
+          "label": "Core Transfer Experience — label",
+          "role": "Label"
+        },
+        "455:31260": {
+          "section": "455:31231",
+          "label": "Core Transfer Experience — artwork",
+          "role": "Artwork"
+        },
+        "455:31263": {
+          "section": "455:31231",
+          "label": "Core Transfer Experience — label",
+          "role": "Label"
+        },
+        "455:31264": {
+          "section": "455:31231",
+          "label": "Core Transfer Experience — label",
+          "role": "Label"
+        },
+        "455:31265": {
+          "section": "455:31231",
+          "label": "Core Transfer Experience — label",
+          "role": "Label"
+        },
+        "455:31269": {
+          "section": "455:31231",
+          "label": "Core Transfer Experience — label",
+          "role": "Label"
+        },
+        "455:31270": {
+          "section": "455:31231",
+          "label": "Core Transfer Experience — label",
+          "role": "Label"
+        },
+        "455:31271": {
+          "section": "455:31231",
+          "label": "Core Transfer Experience — label",
+          "role": "Label"
+        },
+        "455:31273": {
+          "section": "455:31231",
+          "label": "Core Transfer Experience — artwork",
+          "role": "Artwork"
+        },
+        "455:31276": {
+          "section": "455:31231",
+          "label": "Core Transfer Experience — label",
+          "role": "Label"
+        },
+        "455:31277": {
+          "section": "455:31231",
+          "label": "Core Transfer Experience — label",
+          "role": "Label"
+        },
+        "455:31278": {
+          "section": "455:31231",
+          "label": "Core Transfer Experience — label",
+          "role": "Label"
+        },
+        "455:31280": {
+          "section": "455:31231",
+          "label": "Core Transfer Experience — artwork",
+          "role": "Artwork"
+        },
+        "455:31283": {
+          "section": "455:31231",
+          "label": "Core Transfer Experience — label",
+          "role": "Label"
+        },
+        "455:31284": {
+          "section": "455:31231",
+          "label": "Core Transfer Experience — label",
+          "role": "Label"
+        },
+        "455:31285": {
+          "section": "455:31231",
+          "label": "Core Transfer Experience — label",
+          "role": "Label"
+        },
+        "455:31287": {
+          "section": "455:31231",
+          "label": "Core Transfer Experience — artwork",
+          "role": "Artwork"
+        },
+        "455:31290": {
+          "section": "455:31231",
+          "label": "Core Transfer Experience — label",
+          "role": "Label"
+        },
+        "455:31291": {
+          "section": "455:31231",
+          "label": "Core Transfer Experience — label",
+          "role": "Label"
+        },
+        "455:31292": {
+          "section": "455:31231",
+          "label": "Core Transfer Experience — label",
+          "role": "Label"
+        },
+        "455:31294": {
+          "section": "455:31294",
+          "label": "Intake interface — Personal information — artwork",
+          "role": "Artwork"
+        },
+        "455:31297": {
+          "section": "455:31297",
+          "label": "Intake interface — Medical history — artwork",
+          "role": "Artwork"
+        },
+        "455:31565": {
+          "section": "455:31298",
+          "label": "Guided intake screen — artwork",
+          "role": "Artwork"
+        },
+        "455:31708": {
+          "section": "455:31707",
+          "label": "Medical history details — artwork",
+          "role": "Artwork"
+        },
+        "455:32405": {
+          "section": "455:32404",
+          "label": "Intake review — artwork",
+          "role": "Artwork"
+        },
+        "455:32832": {
+          "section": "455:32832",
+          "label": "Final intake interface — artwork",
+          "role": "Artwork"
+        }
+      },
+      "hiddenSections": [
+        "455:31074",
+        "455:31231"
+      ]
+    },
+    "sellflo": {
+      "title": "Sellflo — Commerce and creator collaboration",
+      "sections": [
+        {
+          "id": "455:32875",
+          "title": "Project overview",
+          "hidden": false
+        },
+        {
+          "id": "455:32898",
+          "title": "The Challenge",
+          "hidden": false
+        },
+        {
+          "id": "455:32919",
+          "title": "Understanding the Users",
+          "hidden": false
+        },
+        {
+          "id": "455:32967",
+          "title": "The Design Strategy",
+          "hidden": false
+        },
+        {
+          "id": "455:32988",
+          "title": "Strict Modular Foundations",
+          "hidden": false
+        },
+        {
+          "id": "455:33082",
+          "title": "The Dashboard Design",
+          "hidden": false
+        },
+        {
+          "id": "455:33089",
+          "title": "Merchant workspace",
+          "hidden": false
+        },
+        {
+          "id": "455:34078",
+          "title": "My Design Approach",
+          "hidden": false
+        },
+        {
+          "id": "455:34104",
+          "title": "Creator dashboard",
+          "hidden": false
+        },
+        {
+          "id": "455:35047",
+          "title": "Merchant dashboard",
+          "hidden": false
+        },
+        {
+          "id": "455:35054",
+          "title": "Product experience",
+          "hidden": false
+        },
+        {
+          "id": "455:37227",
+          "title": "Sellflo website",
+          "hidden": false
+        },
+        {
+          "id": "455:38203",
+          "title": "Medical History D",
+          "hidden": false
+        },
+        {
+          "id": "455:38208",
+          "title": "THANK YOU  FOR SCROLLING",
+          "hidden": false
+        }
+      ],
+      "fields": {
+        "455:32878": {
+          "section": "455:32875",
+          "label": "Project overview — label",
+          "role": "Label"
+        },
+        "455:32879": {
+          "section": "455:32875",
+          "label": "Project overview — label",
+          "role": "Label"
+        },
+        "455:32880": {
+          "section": "455:32875",
+          "label": "Sellflo — heading",
+          "role": "Heading"
+        },
+        "455:32881": {
+          "section": "455:32875",
+          "label": "Sellflo — body",
+          "role": "Body"
+        },
+        "455:32882": {
+          "section": "455:32875",
+          "label": "Sellflo — artwork",
+          "role": "Artwork"
+        },
+        "455:32885": {
+          "section": "455:32875",
+          "label": "Sellflo — label",
+          "role": "Label"
+        },
+        "455:32886": {
+          "section": "455:32875",
+          "label": "Sellflo — label",
+          "role": "Label"
+        },
+        "455:32888": {
+          "section": "455:32875",
+          "label": "Sellflo — label",
+          "role": "Label"
+        },
+        "455:32889": {
+          "section": "455:32875",
+          "label": "Sellflo — label",
+          "role": "Label"
+        },
+        "455:32891": {
+          "section": "455:32875",
+          "label": "Sellflo — label",
+          "role": "Label"
+        },
+        "455:32892": {
+          "section": "455:32875",
+          "label": "Sellflo — label",
+          "role": "Label"
+        },
+        "455:32894": {
+          "section": "455:32875",
+          "label": "Sellflo — label",
+          "role": "Label"
+        },
+        "455:32895": {
+          "section": "455:32875",
+          "label": "Sellflo — label",
+          "role": "Label"
+        },
+        "455:32901": {
+          "section": "455:32898",
+          "label": "The Challenge — heading",
+          "role": "Heading"
+        },
+        "455:32902": {
+          "section": "455:32898",
+          "label": "The Challenge — heading",
+          "role": "Heading"
+        },
+        "455:32904": {
+          "section": "455:32898",
+          "label": "The Challenge — heading",
+          "role": "Heading"
+        },
+        "455:32905": {
+          "section": "455:32898",
+          "label": "Product Goal — heading",
+          "role": "Heading"
+        },
+        "455:32908": {
+          "section": "455:32898",
+          "label": "Product Goal — body",
+          "role": "Body"
+        },
+        "455:32911": {
+          "section": "455:32898",
+          "label": "Product Goal — label",
+          "role": "Label"
+        },
+        "455:32912": {
+          "section": "455:32898",
+          "label": "Product Goal — body",
+          "role": "Body"
+        },
+        "455:32914": {
+          "section": "455:32898",
+          "label": "Product Goal — heading",
+          "role": "Heading"
+        },
+        "455:32917": {
+          "section": "455:32898",
+          "label": "Product Goal — label",
+          "role": "Label"
+        },
+        "455:32918": {
+          "section": "455:32898",
+          "label": "Product Goal — body",
+          "role": "Body"
+        },
+        "455:32921": {
+          "section": "455:32919",
+          "label": "Understanding the Users — heading",
+          "role": "Heading"
+        },
+        "455:32922": {
+          "section": "455:32919",
+          "label": "Understanding the Users — label",
+          "role": "Label"
+        },
+        "455:32925": {
+          "section": "455:32919",
+          "label": "Understanding the Users — heading",
+          "role": "Heading"
+        },
+        "455:32926": {
+          "section": "455:32919",
+          "label": "Understanding the Users — label",
+          "role": "Label"
+        },
+        "455:32930": {
+          "section": "455:32919",
+          "label": "Persona 1: The Merchant — label",
+          "role": "Label"
+        },
+        "455:32932": {
+          "section": "455:32919",
+          "label": "Persona 1: The Merchant — body",
+          "role": "Body"
+        },
+        "455:32936": {
+          "section": "455:32919",
+          "label": "User Goals — label",
+          "role": "Label"
+        },
+        "455:32938": {
+          "section": "455:32919",
+          "label": "User Goals — body",
+          "role": "Body"
+        },
+        "455:32943": {
+          "section": "455:32919",
+          "label": "Pain Points — label",
+          "role": "Label"
+        },
+        "455:32945": {
+          "section": "455:32919",
+          "label": "Pain Points — body",
+          "role": "Body"
+        },
+        "455:32951": {
+          "section": "455:32919",
+          "label": "Persona 2: The Creator — label",
+          "role": "Label"
+        },
+        "455:32953": {
+          "section": "455:32919",
+          "label": "Persona 2: The Creator — body",
+          "role": "Body"
+        },
+        "455:32957": {
+          "section": "455:32919",
+          "label": "User Goals — label",
+          "role": "Label"
+        },
+        "455:32959": {
+          "section": "455:32919",
+          "label": "User Goals — body",
+          "role": "Body"
+        },
+        "455:32964": {
+          "section": "455:32919",
+          "label": "Pain Points — label",
+          "role": "Label"
+        },
+        "455:32966": {
+          "section": "455:32919",
+          "label": "Pain Points — body",
+          "role": "Body"
+        },
+        "455:32970": {
+          "section": "455:32967",
+          "label": "The Design Strategy — heading",
+          "role": "Heading"
+        },
+        "455:32971": {
+          "section": "455:32967",
+          "label": "The Design Strategy — heading",
+          "role": "Heading"
+        },
+        "455:32973": {
+          "section": "455:32967",
+          "label": "The Design Strategy — heading",
+          "role": "Heading"
+        },
+        "455:32974": {
+          "section": "455:32967",
+          "label": "Product Goal — heading",
+          "role": "Heading"
+        },
+        "455:32977": {
+          "section": "455:32967",
+          "label": "Product Goal — body",
+          "role": "Body"
+        },
+        "455:32980": {
+          "section": "455:32967",
+          "label": "Product Goal — label",
+          "role": "Label"
+        },
+        "455:32981": {
+          "section": "455:32967",
+          "label": "Product Goal — body",
+          "role": "Body"
+        },
+        "455:32983": {
+          "section": "455:32967",
+          "label": "Product Goal — heading",
+          "role": "Heading"
+        },
+        "455:32986": {
+          "section": "455:32967",
+          "label": "Product Goal — label",
+          "role": "Label"
+        },
+        "455:32987": {
+          "section": "455:32967",
+          "label": "Product Goal — body",
+          "role": "Body"
+        },
+        "455:32990": {
+          "section": "455:32988",
+          "label": "Strict Modular Foundations — label",
+          "role": "Label"
+        },
+        "455:32991": {
+          "section": "455:32988",
+          "label": "Strict Modular Foundations — label",
+          "role": "Label"
+        },
+        "455:32993": {
+          "section": "455:32988",
+          "label": "Strict Modular Foundations — heading",
+          "role": "Heading"
+        },
+        "455:32994": {
+          "section": "455:32988",
+          "label": "Strict Modular Foundations — label",
+          "role": "Label"
+        },
+        "455:32998": {
+          "section": "455:32988",
+          "label": "Strict Modular Foundations — label",
+          "role": "Label"
+        },
+        "455:33003": {
+          "section": "455:32988",
+          "label": "Strict Modular Foundations — label",
+          "role": "Label"
+        },
+        "455:33004": {
+          "section": "455:32988",
+          "label": "Strict Modular Foundations — label",
+          "role": "Label"
+        },
+        "455:33008": {
+          "section": "455:32988",
+          "label": "Strict Modular Foundations — label",
+          "role": "Label"
+        },
+        "455:33009": {
+          "section": "455:32988",
+          "label": "Strict Modular Foundations — label",
+          "role": "Label"
+        },
+        "455:33013": {
+          "section": "455:32988",
+          "label": "Strict Modular Foundations — label",
+          "role": "Label"
+        },
+        "455:33014": {
+          "section": "455:32988",
+          "label": "Strict Modular Foundations — label",
+          "role": "Label"
+        },
+        "455:33018": {
+          "section": "455:32988",
+          "label": "Strict Modular Foundations — label",
+          "role": "Label"
+        },
+        "455:33019": {
+          "section": "455:32988",
+          "label": "Strict Modular Foundations — label",
+          "role": "Label"
+        },
+        "455:33023": {
+          "section": "455:32988",
+          "label": "Strict Modular Foundations — label",
+          "role": "Label"
+        },
+        "455:33024": {
+          "section": "455:32988",
+          "label": "Strict Modular Foundations — label",
+          "role": "Label"
+        },
+        "455:33026": {
+          "section": "455:32988",
+          "label": "Strict Modular Foundations — label",
+          "role": "Label"
+        },
+        "455:33031": {
+          "section": "455:32988",
+          "label": "Strict Modular Foundations — label",
+          "role": "Label"
+        },
+        "455:33032": {
+          "section": "455:32988",
+          "label": "Strict Modular Foundations — label",
+          "role": "Label"
+        },
+        "455:33036": {
+          "section": "455:32988",
+          "label": "Strict Modular Foundations — label",
+          "role": "Label"
+        },
+        "455:33037": {
+          "section": "455:32988",
+          "label": "Strict Modular Foundations — label",
+          "role": "Label"
+        },
+        "455:33041": {
+          "section": "455:32988",
+          "label": "Strict Modular Foundations — label",
+          "role": "Label"
+        },
+        "455:33042": {
+          "section": "455:32988",
+          "label": "Strict Modular Foundations — label",
+          "role": "Label"
+        },
+        "455:33046": {
+          "section": "455:32988",
+          "label": "Strict Modular Foundations — label",
+          "role": "Label"
+        },
+        "455:33047": {
+          "section": "455:32988",
+          "label": "Strict Modular Foundations — label",
+          "role": "Label"
+        },
+        "455:33051": {
+          "section": "455:32988",
+          "label": "Strict Modular Foundations — label",
+          "role": "Label"
+        },
+        "455:33052": {
+          "section": "455:32988",
+          "label": "Strict Modular Foundations — label",
+          "role": "Label"
+        },
+        "455:33054": {
+          "section": "455:32988",
+          "label": "Strict Modular Foundations — label",
+          "role": "Label"
+        },
+        "455:33056": {
+          "section": "455:32988",
+          "label": "Inter — 36px — heading",
+          "role": "Heading"
+        },
+        "455:33057": {
+          "section": "455:32988",
+          "label": "Inter — 36px — label",
+          "role": "Label"
+        },
+        "455:33058": {
+          "section": "455:32988",
+          "label": "Inter — 36px — label",
+          "role": "Label"
+        },
+        "455:33060": {
+          "section": "455:32988",
+          "label": "Inter — 36px — label",
+          "role": "Label"
+        },
+        "455:33063": {
+          "section": "455:32988",
+          "label": "Inter — 36px — label",
+          "role": "Label"
+        },
+        "455:33065": {
+          "section": "455:32988",
+          "label": "Inter — 36px — label",
+          "role": "Label"
+        },
+        "455:33076": {
+          "section": "455:32988",
+          "label": "Inter — 36px — artwork",
+          "role": "Artwork"
+        },
+        "455:33077": {
+          "section": "455:32988",
+          "label": "Inter — 36px — artwork",
+          "role": "Artwork"
+        },
+        "455:33078": {
+          "section": "455:32988",
+          "label": "Inter — 36px — artwork",
+          "role": "Artwork"
+        },
+        "455:33079": {
+          "section": "455:32988",
+          "label": "Sellflo — heading",
+          "role": "Heading"
+        },
+        "455:33080": {
+          "section": "455:32988",
+          "label": "Sellflo — artwork",
+          "role": "Artwork"
+        },
+        "455:33081": {
+          "section": "455:32988",
+          "label": "Sellflo — heading",
+          "role": "Heading"
+        },
+        "455:33084": {
+          "section": "455:33082",
+          "label": "The Dashboard Design — label",
+          "role": "Label"
+        },
+        "455:33085": {
+          "section": "455:33082",
+          "label": "The Dashboard Design — label",
+          "role": "Label"
+        },
+        "455:33088": {
+          "section": "455:33082",
+          "label": "The Dashboard Design — heading",
+          "role": "Heading"
+        },
+        "455:33090": {
+          "section": "455:33089",
+          "label": "Merchant workspace — artwork",
+          "role": "Artwork"
+        },
+        "455:33712": {
+          "section": "455:33089",
+          "label": "Merchant workspace — artwork",
+          "role": "Artwork"
+        },
+        "455:34080": {
+          "section": "455:34078",
+          "label": "My Design Approach — label",
+          "role": "Label"
+        },
+        "455:34081": {
+          "section": "455:34078",
+          "label": "My Design Approach — label",
+          "role": "Label"
+        },
+        "455:34084": {
+          "section": "455:34078",
+          "label": "My Design Approach — heading",
+          "role": "Heading"
+        },
+        "455:34088": {
+          "section": "455:34078",
+          "label": "A. Sidebar Navigation — label",
+          "role": "Label"
+        },
+        "455:34090": {
+          "section": "455:34078",
+          "label": "A. Sidebar Navigation — body",
+          "role": "Body"
+        },
+        "455:34094": {
+          "section": "455:34078",
+          "label": "C. Analytics and Visualization — label",
+          "role": "Label"
+        },
+        "455:34096": {
+          "section": "455:34078",
+          "label": "C. Analytics and Visualization — body",
+          "role": "Body"
+        },
+        "455:34101": {
+          "section": "455:34078",
+          "label": "E. Quick Actions — label",
+          "role": "Label"
+        },
+        "455:34103": {
+          "section": "455:34078",
+          "label": "E. Quick Actions — body",
+          "role": "Body"
+        },
+        "455:34105": {
+          "section": "455:34104",
+          "label": "Creator dashboard — artwork",
+          "role": "Artwork"
+        },
+        "455:34727": {
+          "section": "455:34104",
+          "label": "Creator dashboard — artwork",
+          "role": "Artwork"
+        },
+        "455:35045": {
+          "section": "455:34104",
+          "label": "Creator dashboard — heading",
+          "role": "Heading"
+        },
+        "455:35046": {
+          "section": "455:34104",
+          "label": "Section label",
+          "role": "Label"
+        },
+        "455:35049": {
+          "section": "455:35047",
+          "label": "Merchant dashboard — heading",
+          "role": "Heading"
+        },
+        "455:35050": {
+          "section": "455:35047",
+          "label": "Merchant dashboard — label",
+          "role": "Label"
+        },
+        "455:35054": {
+          "section": "455:35054",
+          "label": "Product experience — artwork",
+          "role": "Artwork"
+        },
+        "455:37227": {
+          "section": "455:37227",
+          "label": "Sellflo website — artwork",
+          "role": "Artwork"
+        },
+        "455:38209": {
+          "section": "455:38208",
+          "label": "THANK YOU  FOR SCROLLING — artwork",
+          "role": "Artwork"
+        },
+        "455:38211": {
+          "section": "455:38208",
+          "label": "THANK YOU \nFOR SCROLLING — heading",
+          "role": "Heading"
+        },
+        "455:38212": {
+          "section": "455:38208",
+          "label": "LET’S WORK TOGETHER — heading",
+          "role": "Heading"
+        },
+        "455:38251": {
+          "section": "455:38208",
+          "label": "LET’S WORK TOGETHER — artwork",
+          "role": "Artwork"
+        },
+        "455:38252": {
+          "section": "455:38208",
+          "label": "LET’S WORK TOGETHER — artwork",
+          "role": "Artwork"
+        },
+        "455:38253": {
+          "section": "455:38208",
+          "label": "LET’S WORK TOGETHER — artwork",
+          "role": "Artwork"
+        },
+        "455:38254": {
+          "section": "455:38208",
+          "label": "Sellflo — heading",
+          "role": "Heading"
+        },
+        "455:38255": {
+          "section": "455:38208",
+          "label": "Sellflo — artwork",
+          "role": "Artwork"
+        }
+      },
+      "hiddenSections": []
+    },
+    "vpn-medical": {
+      "title": "VPN — Multi-role healthcare coordination",
+      "sections": [
+        {
+          "id": "478:1951",
+          "title": "Project overview",
+          "hidden": false
+        },
+        {
+          "id": "478:1974",
+          "title": "The Challenge",
+          "hidden": false
+        },
+        {
+          "id": "478:1995",
+          "title": "4. Research and discovery",
+          "hidden": false
+        },
+        {
+          "id": "478:2064",
+          "title": "Design System",
+          "hidden": false
+        },
+        {
+          "id": "478:2158",
+          "title": "Key Screens and Features",
+          "hidden": false
+        },
+        {
+          "id": "478:3154",
+          "title": "03-Users-Research",
+          "hidden": false
+        },
+        {
+          "id": "492:9041",
+          "title": "Patient dashboard",
+          "hidden": false
+        },
+        {
+          "id": "489:7489",
+          "title": "Guardian dashboard",
+          "hidden": false
+        },
+        {
+          "id": "492:16390",
+          "title": "Agency dashboard",
+          "hidden": false
+        },
+        {
+          "id": "492:19386",
+          "title": "Network workspace",
+          "hidden": false
+        },
+        {
+          "id": "492:20379",
+          "title": "Appointment management",
+          "hidden": false
+        },
+        {
+          "id": "492:21411",
+          "title": "Consultation interface",
+          "hidden": false
+        },
+        {
+          "id": "493:26967",
+          "title": "VPN website",
+          "hidden": false
+        },
+        {
+          "id": "478:7279",
+          "title": "Medical History D",
+          "hidden": false
+        },
+        {
+          "id": "478:7284",
+          "title": "Frame 2147227451",
+          "hidden": false
+        },
+        {
+          "id": "493:30237",
+          "title": "vpnsoftware",
+          "hidden": false
+        }
+      ],
+      "fields": {
+        "478:1954": {
+          "section": "478:1951",
+          "label": "Project overview — label",
+          "role": "Label"
+        },
+        "478:1955": {
+          "section": "478:1951",
+          "label": "Project overview — label",
+          "role": "Label"
+        },
+        "478:1956": {
+          "section": "478:1951",
+          "label": "VPN Medical Appointment Management System — heading",
+          "role": "Heading"
+        },
+        "478:1957": {
+          "section": "478:1951",
+          "label": "VPN Medical Appointment Management System — body",
+          "role": "Body"
+        },
+        "483:29538": {
+          "section": "478:1951",
+          "label": "VPN Medical Appointment Management System — artwork",
+          "role": "Artwork"
+        },
+        "493:30246": {
+          "section": "478:1951",
+          "label": "VPN Medical Appointment Management System — artwork",
+          "role": "Artwork"
+        },
+        "478:1961": {
+          "section": "478:1951",
+          "label": "VPN Medical Appointment Management System — label",
+          "role": "Label"
+        },
+        "478:1962": {
+          "section": "478:1951",
+          "label": "VPN Medical Appointment Management System — label",
+          "role": "Label"
+        },
+        "478:1964": {
+          "section": "478:1951",
+          "label": "VPN Medical Appointment Management System — label",
+          "role": "Label"
+        },
+        "478:1965": {
+          "section": "478:1951",
+          "label": "VPN Medical Appointment Management System — label",
+          "role": "Label"
+        },
+        "478:1967": {
+          "section": "478:1951",
+          "label": "VPN Medical Appointment Management System — label",
+          "role": "Label"
+        },
+        "478:1968": {
+          "section": "478:1951",
+          "label": "VPN Medical Appointment Management System — label",
+          "role": "Label"
+        },
+        "484:33127": {
+          "section": "478:1951",
+          "label": "VPN Medical Appointment Management System — label",
+          "role": "Label"
+        },
+        "484:33128": {
+          "section": "478:1951",
+          "label": "VPN Medical Appointment Management System — label",
+          "role": "Label"
+        },
+        "484:33124": {
+          "section": "478:1951",
+          "label": "VPN Medical Appointment Management System — label",
+          "role": "Label"
+        },
+        "484:33125": {
+          "section": "478:1951",
+          "label": "VPN Medical Appointment Management System — label",
+          "role": "Label"
+        },
+        "478:1970": {
+          "section": "478:1951",
+          "label": "VPN Medical Appointment Management System — label",
+          "role": "Label"
+        },
+        "478:1971": {
+          "section": "478:1951",
+          "label": "VPN Medical Appointment Management System — label",
+          "role": "Label"
+        },
+        "478:1977": {
+          "section": "478:1974",
+          "label": "The Challenge — heading",
+          "role": "Heading"
+        },
+        "478:1978": {
+          "section": "478:1974",
+          "label": "The Challenge — heading",
+          "role": "Heading"
+        },
+        "478:1980": {
+          "section": "478:1974",
+          "label": "The Challenge — heading",
+          "role": "Heading"
+        },
+        "478:1981": {
+          "section": "478:1974",
+          "label": "Understanding the users — heading",
+          "role": "Heading"
+        },
+        "478:1984": {
+          "section": "478:1974",
+          "label": "Understanding the users — body",
+          "role": "Body"
+        },
+        "478:1987": {
+          "section": "478:1974",
+          "label": "Understanding the users — label",
+          "role": "Label"
+        },
+        "478:1988": {
+          "section": "478:1974",
+          "label": "Understanding the users — body",
+          "role": "Body"
+        },
+        "484:33130": {
+          "section": "478:1974",
+          "label": "The design challenge: — heading",
+          "role": "Heading"
+        },
+        "484:33133": {
+          "section": "478:1974",
+          "label": "The design challenge: — label",
+          "role": "Label"
+        },
+        "484:33134": {
+          "section": "478:1974",
+          "label": "The design challenge: — body",
+          "role": "Body"
+        },
+        "478:1990": {
+          "section": "478:1974",
+          "label": "Understanding the users — heading",
+          "role": "Heading"
+        },
+        "478:1993": {
+          "section": "478:1974",
+          "label": "Understanding the users — label",
+          "role": "Label"
+        },
+        "478:1994": {
+          "section": "478:1974",
+          "label": "Understanding the users — body",
+          "role": "Body"
+        },
+        "478:2001": {
+          "section": "478:1995",
+          "label": "4. Research and discovery — heading",
+          "role": "Heading"
+        },
+        "478:2006": {
+          "section": "478:1995",
+          "label": "Research and Discovery — label",
+          "role": "Label"
+        },
+        "478:2008": {
+          "section": "478:1995",
+          "label": "Research and Discovery — body",
+          "role": "Body"
+        },
+        "486:4166": {
+          "section": "478:1995",
+          "label": "Key design hypothesis — label",
+          "role": "Label"
+        },
+        "486:4168": {
+          "section": "478:1995",
+          "label": "Key design hypothesis — body",
+          "role": "Body"
+        },
+        "478:2012": {
+          "section": "478:1995",
+          "label": "Information architecture — label",
+          "role": "Label"
+        },
+        "478:2014": {
+          "section": "478:1995",
+          "label": "Information architecture — label",
+          "role": "Label"
+        },
+        "478:2019": {
+          "section": "478:1995",
+          "label": "Role-specific navigation — label",
+          "role": "Label"
+        },
+        "478:2021": {
+          "section": "478:1995",
+          "label": "Role-specific navigation — body",
+          "role": "Body"
+        },
+        "478:2067": {
+          "section": "478:2064",
+          "label": "Design System — heading",
+          "role": "Heading"
+        },
+        "486:4180": {
+          "section": "478:2064",
+          "label": "Primary, — heading",
+          "role": "Heading"
+        },
+        "486:4181": {
+          "section": "478:2064",
+          "label": "Primary, — body",
+          "role": "Body"
+        },
+        "486:4186": {
+          "section": "478:2064",
+          "label": "Primary, — label",
+          "role": "Label"
+        },
+        "486:4189": {
+          "section": "478:2064",
+          "label": "Primary, — label",
+          "role": "Label"
+        },
+        "486:4192": {
+          "section": "478:2064",
+          "label": "Primary, — label",
+          "role": "Label"
+        },
+        "486:4195": {
+          "section": "478:2064",
+          "label": "Primary, — label",
+          "role": "Label"
+        },
+        "486:4198": {
+          "section": "478:2064",
+          "label": "Primary, — label",
+          "role": "Label"
+        },
+        "486:4200": {
+          "section": "478:2064",
+          "label": "Neutral, Gray — heading",
+          "role": "Heading"
+        },
+        "486:4201": {
+          "section": "478:2064",
+          "label": "Neutral, Gray — body",
+          "role": "Body"
+        },
+        "486:4206": {
+          "section": "478:2064",
+          "label": "Neutral, Gray — label",
+          "role": "Label"
+        },
+        "486:4209": {
+          "section": "478:2064",
+          "label": "Neutral, Gray — label",
+          "role": "Label"
+        },
+        "486:4212": {
+          "section": "478:2064",
+          "label": "Neutral, Gray — label",
+          "role": "Label"
+        },
+        "486:4215": {
+          "section": "478:2064",
+          "label": "Neutral, Gray — label",
+          "role": "Label"
+        },
+        "486:4218": {
+          "section": "478:2064",
+          "label": "Neutral, Gray — label",
+          "role": "Label"
+        },
+        "486:4221": {
+          "section": "478:2064",
+          "label": "Neutral, Gray — label",
+          "role": "Label"
+        },
+        "486:4223": {
+          "section": "478:2064",
+          "label": "VPN — heading",
+          "role": "Heading"
+        },
+        "486:4224": {
+          "section": "478:2064",
+          "label": "VPN — body",
+          "role": "Body"
+        },
+        "486:4227": {
+          "section": "478:2064",
+          "label": "Yellow — heading",
+          "role": "Heading"
+        },
+        "486:4231": {
+          "section": "478:2064",
+          "label": "Yellow — label",
+          "role": "Label"
+        },
+        "486:4234": {
+          "section": "478:2064",
+          "label": "Yellow — label",
+          "role": "Label"
+        },
+        "486:4237": {
+          "section": "478:2064",
+          "label": "Yellow — label",
+          "role": "Label"
+        },
+        "486:4240": {
+          "section": "478:2064",
+          "label": "Yellow — label",
+          "role": "Label"
+        },
+        "486:4242": {
+          "section": "478:2064",
+          "label": "Red — heading",
+          "role": "Heading"
+        },
+        "486:4246": {
+          "section": "478:2064",
+          "label": "Red — label",
+          "role": "Label"
+        },
+        "486:4249": {
+          "section": "478:2064",
+          "label": "Red — label",
+          "role": "Label"
+        },
+        "486:4252": {
+          "section": "478:2064",
+          "label": "Red — label",
+          "role": "Label"
+        },
+        "486:4255": {
+          "section": "478:2064",
+          "label": "Red — label",
+          "role": "Label"
+        },
+        "486:4257": {
+          "section": "478:2064",
+          "label": "Green — heading",
+          "role": "Heading"
+        },
+        "486:4262": {
+          "section": "478:2064",
+          "label": "Green — label",
+          "role": "Label"
+        },
+        "486:4265": {
+          "section": "478:2064",
+          "label": "Green — label",
+          "role": "Label"
+        },
+        "486:4268": {
+          "section": "478:2064",
+          "label": "Green — label",
+          "role": "Label"
+        },
+        "486:4271": {
+          "section": "478:2064",
+          "label": "Green — label",
+          "role": "Label"
+        },
+        "478:2164": {
+          "section": "478:2158",
+          "label": "Key Screens and Features — heading",
+          "role": "Heading"
+        },
+        "478:3164": {
+          "section": "478:3154",
+          "label": "Client (Patient) Dashboard — label",
+          "role": "Label"
+        },
+        "478:3166": {
+          "section": "478:3154",
+          "label": "Client (Patient) Dashboard — body",
+          "role": "Body"
+        },
+        "492:8484": {
+          "section": "478:3154",
+          "label": "Guardian Dashboard — label",
+          "role": "Label"
+        },
+        "492:8486": {
+          "section": "478:3154",
+          "label": "Guardian Dashboard — body",
+          "role": "Body"
+        },
+        "492:8491": {
+          "section": "478:3154",
+          "label": "Agency Dashboard — label",
+          "role": "Label"
+        },
+        "492:8493": {
+          "section": "478:3154",
+          "label": "Agency Dashboard — body",
+          "role": "Body"
+        },
+        "492:9042": {
+          "section": "492:9041",
+          "label": "Patient dashboard — artwork",
+          "role": "Artwork"
+        },
+        "492:14566": {
+          "section": "489:7489",
+          "label": "Guardian dashboard — artwork",
+          "role": "Artwork"
+        },
+        "492:16391": {
+          "section": "492:16390",
+          "label": "Agency dashboard — artwork",
+          "role": "Artwork"
+        },
+        "492:19387": {
+          "section": "492:19386",
+          "label": "Network workspace — artwork",
+          "role": "Artwork"
+        },
+        "492:20380": {
+          "section": "492:20379",
+          "label": "Appointment management — artwork",
+          "role": "Artwork"
+        },
+        "492:21413": {
+          "section": "492:21411",
+          "label": "Consultation interface — artwork",
+          "role": "Artwork"
+        },
+        "493:26967": {
+          "section": "493:26967",
+          "label": "VPN website — artwork",
+          "role": "Artwork"
+        },
+        "483:3083": {
+          "section": "493:30237",
+          "label": "vpnsoftware — artwork",
+          "role": "Artwork"
+        },
+        "483:3084": {
+          "section": "493:30237",
+          "label": "vpnsoftware — artwork",
+          "role": "Artwork"
+        },
+        "493:30240": {
+          "section": "493:30237",
+          "label": "vpnsoftware — heading",
+          "role": "Heading"
+        }
+      },
+      "hiddenSections": []
+    }
+  }
+}
