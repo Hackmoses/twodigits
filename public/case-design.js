@@ -12,7 +12,7 @@
   const append=(target,text,start,heading=false)=>{let position=start;text.split('\u2028').forEach((part,i)=>{if(i)target.append(document.createElement('br'));if(!original&&heading&&i===0){const strong=document.createElement('span');strong.style.fontWeight=600;strong.textContent=part;target.append(strong);}else{let cursor=0;for(const run of original?formatting.runs:[]){const a=Math.max(position,run.start),b=Math.min(position+part.length,run.end);if(b<=a)continue;if(a-position>cursor)target.append(document.createTextNode(part.slice(cursor,a-position)));const span=document.createElement('span');span.textContent=part.slice(a-position,b-position);if(run.weight)span.style.fontWeight=run.weight;if(run.italic)span.style.fontStyle='italic';if(run.color)span.style.color=run.color;target.append(span);cursor=b-position;}if(cursor<part.length)target.append(document.createTextNode(part.slice(cursor)));}position+=part.length+1;});};
   let offset=0,list=null,paragraph=null,listContext=null;
   lines.forEach((line,index)=>{if(!line.trim()){list=null;paragraph=null;listContext=null;offset+=line.length+1;return;}
-   const first=line.split('\u2028')[0].trim(),heading=sameLines?headings.get(index):[...headings.values()].find(h=>h.name===first),info=sameLines?formatting.lines[index]:null,marker=!original&&line.match(/^\s*[-*]\s+(.+)/),isList=!heading&&(info?.type?.includes('LIST')||marker||listContext);
+   const first=line.split('\u2028')[0].trim(),heading=sameLines?headings.get(index):[...headings.values()].find(h=>h.name===first),info=sameLines?formatting.lines[index]:null,marker=!original&&line.match(/^\s*[-*]\s+(.+)/),isList=!heading&&(info?.type?.includes('LIST')||marker||(!sameLines&&listContext));
    if(isList){paragraph=null;const type=(info?.type||listContext)==='ORDERED_LIST'?'ol':'ul';if(!list||list.tagName.toLowerCase()!==type){list=document.createElement(type);element.append(list);}const item=document.createElement('li'),text=marker?marker[1]:line.trimStart();append(item,text,offset+line.indexOf(text));list.append(item);
    }else{list=null;if(!paragraph||heading){paragraph=document.createElement('p');element.append(paragraph);}else paragraph.append(document.createElement('br'));append(paragraph,line,offset,!!heading);if(heading){paragraph.classList.add('case-rich-heading');paragraph=null;listContext=heading.list;}}
    offset+=line.length+1;
@@ -36,10 +36,24 @@
   }else for(const c of n.kids||[])e.append(nodeElement(c,overrides,adaptive,depth+1,section,n));
   if(adaptive&&n.text){if(e.dataset.textRole==='title'){e.setAttribute('role','heading');e.setAttribute('aria-level','1');}else if(e.dataset.textRole==='heading'){e.setAttribute('role','heading');e.setAttribute('aria-level','2');}else{e.removeAttribute('role');e.removeAttribute('aria-level');}}
   if(n.text)richText(e,n,e.textContent);
+  if(n.text&&section==='01-Overview'&&n.text.length>150){const value=overrides.text?.[n.id]??n.text;e.replaceChildren();e.classList.add('case-rich');for(const text of value.split(/\n+/).filter(t=>t.trim())){const paragraph=document.createElement('p');paragraph.textContent=text;e.append(paragraph);}}
+
   if(depth===1){const label=(n.kids||[]).find(c=>c.name==='Section-Label'),labelText=label?.kids?.find(c=>c.text&&!/^\d+$/.test(c.text.trim())),name=labelText?(overrides.text?.[labelText.id]??labelText.text).trim():null;if(name){let repeated=false;function check(c){if(c!==label&&c.text&&(overrides.text?.[c.id]??c.text).trim()===name&&c.size>=24)repeated=true;(c.kids||[]).forEach(check);}for(const child of n.kids||[])if(child!==label)check(child);if(repeated)e.querySelector(`[data-source-node="${label.id}"]`)?.classList.add('case-repeated-label');}}
+  if(n.id==='455:43702'){
+   e.classList.add('case-personas');const take=id=>e.querySelector(`[data-source-node="${id}"]`);
+   const label=take('455:43703'),title=take('455:43708'),grid=document.createElement('div');grid.className='persona-grid';
+   for(const [headId,bodyId] of [['455:43710','455:43717'],['455:43720','455:43727'],['455:43730','455:43737']]){
+    const card=document.createElement('article');card.className='persona-card';const head=take(headId),body=take(bodyId);head.classList.add('persona-profile');body.classList.add('persona-copy');
+    const value=body.dataset.originalText;const parts=personaParts(overrides.text?.[bodyId]??value);body.replaceChildren();body.classList.remove('case-rich');
+    for(const [name,text] of [['Goal',parts.goal],['Pain points',parts.pain],['Needs',parts.needs]]){if(!text.trim())continue;const block=document.createElement('div'),heading=document.createElement('h3');heading.textContent=name;block.append(heading);if(name==='Pain points'){const list=document.createElement('ul');for(const line of text.split('\n').filter(x=>x.trim())){const item=document.createElement('li');item.textContent=line.replace(/^\s*[-*•]\s*/, '');list.append(item);}block.append(list);}else{const copy=document.createElement('p');copy.textContent=text;block.append(copy);}body.append(block);}
+    card.append(head,body);grid.append(card);
+   }
+   e.replaceChildren(label,title,grid);
+  }
   e._layout=n;return e;
  }
- function reflow(e){const n=e._layout;if(!n)return 0;const unit=Math.min(1,innerWidth/1440);if(innerWidth<=1024){e.style.height='auto';return 0;}if(n.text)return Math.max(n.h,e.getBoundingClientRect().height/unit);
+ function personaParts(value){const match=value.match(/^\s*Goal:\s*([\s\S]*?)\n\s*Pain Points:\s*([\s\S]*?)\n\s*Needs:\s*([\s\S]*)$/i);return match?{goal:match[1].trim(),pain:match[2].trim(),needs:match[3].trim()}:{goal:value,pain:'',needs:''};}
+ function reflow(e){const n=e._layout;if(!n)return 0;const unit=Math.min(1,innerWidth/1440);if(innerWidth<=1024){e.style.height='auto';return 0;}if(e.classList.contains('case-personas')){e.style.height='auto';return e.getBoundingClientRect().height/unit;}if(n.text)return Math.max(n.h,e.getBoundingClientRect().height/unit);
   const items=[...e.children].filter(c=>c._layout),sizes=new Map();for(const c of items)sizes.set(c,reflow(c));let bottom=n.h;
   for(const c of items){const a=c._layout;let shift=0;for(const prior of items){const p=prior._layout;if(prior!==c&&p.y+p.h<=a.y+1&&p.y<a.y&&p.w>0){const horizontal=p.x<a.x+a.w&&p.x+p.w>a.x;const amount=(sizes.get(prior)||p.h)-p.h;if(horizontal&&amount>0)shift=Math.max(shift,amount+(prior._shift||0));}}c._shift=shift;c.style.top=css(a.y+shift);bottom=Math.max(bottom,a.y+shift+(sizes.get(c)||a.h));}
   e.style.height=css(bottom);return bottom;
@@ -47,7 +61,7 @@
  async function render(c,data,preview){
   const key=c.design?.template||(['blomgram','ai-patient-intake','sellflo','vpn-medical'].includes(c.id)?c.id:'');if(!key)return false;
   await window.CaseMedia?.ready;
-  const response=await fetch(`data/case-layouts/${key}.json`);if(!response.ok)throw Error('The original case-study layout could not load. Please reload.');const layout=await response.json();
+  const response=await fetch(`data/case-layouts/${key}.json`);if(!response.ok)throw Error('The original case-study layout could not load. Please reload.');const layout=await response.json();const editorial=await(await fetch('data/case-layouts/editorial.json')).json();const template=editorial.templates[key];layout.kids=layout.kids.filter(n=>!template?.hiddenSections.includes(n.id));
   const original=layout.defaults;const bindings=layout.bindings||{};if(original)CaseStudiesCMS.migrateFields(c,{defaults:original,bindings});const overrides={text:{...(c.design?.text||{})},images:{...(c.design?.images||{})}};
   const texts=[];function visit(n){if(n.text)texts.push(n);(n.kids||[]).forEach(visit);}visit(layout);
   if(original){for(const field of ['title','summary'])if(bindings[field])overrides.text[bindings[field]]=c[field];for(const [key,id] of Object.entries(bindings.metadata||{}))if(id&&c.metadata[key]!==undefined)overrides.text[id]=c.metadata[key];
@@ -55,9 +69,9 @@
    // Existing body edits remain visible; new precise edits use the source-layout fields.
    for(const s of c.sections){const base=original.sections.find(x=>x.id===s.id);if(base&&s.heading!==base.heading){const heading=texts.find(n=>n.text.trim().replace(/^—\s*/,'')===base.heading.trim());if(heading)overrides.text[heading.id]=s.heading;}if(base&&s.body!==base.body){const section=layout.kids.find(n=>n.id.replace(':','-')===s.id);if(section){const candidates=[];function leaves(n){if(n.text&&n.size>=14)candidates.push(n);(n.kids||[]).forEach(leaves);}leaves(section);if(candidates.length){const paragraphs=s.body.split(/\n\n/);candidates.forEach((n,i)=>overrides.text[n.id]=paragraphs[i]||'');if(paragraphs.length>candidates.length)overrides.text[candidates.at(-1).id]=paragraphs.slice(candidates.length-1).join('\n\n');}}}}
   }
-  const target=document.querySelector('#case-study');target.classList.remove('case-custom');target.classList.add('case-canvas');document.body.classList.add('has-source-case');
+  const target=document.querySelector('#case-study');target.classList.remove('case-custom');target.classList.add('case-canvas','case-editorial');target.dataset.caseTemplate=key;document.body.classList.add('has-source-case');
   let root,adaptive;
-  const resize=()=>{const next=innerWidth<=1024;if(!root||next!==adaptive){adaptive=next;root=nodeElement(layout,overrides,adaptive);root.classList.add('case-root');root.style.left='0';root.style.top='0';target.replaceChildren(root);target.classList.toggle('case-adaptive',adaptive);}if(!adaptive)reflow(root);};
+  const resize=()=>{const next=true;if(!root||next!==adaptive){adaptive=next;root=nodeElement(layout,overrides,adaptive);root.classList.add('case-root');root.style.left='0';root.style.top='0';target.replaceChildren(root);target.classList.toggle('case-adaptive',adaptive);}if(!adaptive)reflow(root);};
   resize();target.setAttribute('aria-busy','false');document.body.classList.remove('case-loading');document.fonts.ready.then(()=>{if(!adaptive)reflow(root);});addEventListener('resize',resize);document.querySelector('#status').textContent='';document.documentElement.dataset.caseDesignLoaded='true';return true;
  }
  window.CaseDesign={render};

@@ -5,3 +5,7 @@
 button,.file-button{min-height:44px}.section-tools button{min-height:44px}.cms-tabs a{min-height:44px;display:inline-flex;align-items:center}
 /* Create a study from a deliberate layout choice. */
 .template-help{margin:8px 0 18px}.template-help p{margin:0}
+
+.persona-editor{display:grid;gap:16px;padding:20px;border:1px solid var(--line,#dce4e0);border-radius:12px;margin-block:16px;font-weight:600}.persona-editor>label{display:grid;gap:6px;font-weight:500}.persona-editor textarea[hidden]{display:none}
+
+.template-title{font-size:22px;font-weight:600;margin:24px 0 8px}.template-help{color:#40575a;max-width:72ch;margin:0 0 28px}.page-field-group{margin-block:16px}.page-field-group>summary{padding:18px;font-size:17px;font-weight:600}.page-field-group>label{margin:20px 0}.page-field-group textarea{line-height:1.65;min-height:92px;resize:vertical}.persona-editor textarea{font-weight:400}.persona-editor{background:#f8faf9}
